@@ -33,7 +33,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "master" #"gh-pages" # , "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -83,10 +83,10 @@ analytics:
 author:
   name             : "Gerard Sanroma"
   avatar           : "gerard_round.jpg"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Data Science, Life Sciences, Computer Science"
   location         : "Bonn (Germany)"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=Z21amAoAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,19 +96,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "gsanroma"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "gsanroma"
+  orcid            : "http://orcid.org/0000-0002-4450-8311"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "gerard_sanroma"
   vine             :
   weibo            :
   xing             :
@@ -253,7 +253,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Madrid # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
