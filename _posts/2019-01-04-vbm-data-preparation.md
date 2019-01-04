@@ -139,10 +139,10 @@ run ~/CODE/utils/average_images.py --in_dir tmp/ --in_suffix _GMWarped.nii.gz --
 ```
 (the same for \_WM.nii.gz).
 
-The initial templates look like this:
+The initial templates look like this asdf:
 
-![Gray Matter](figs/avg_GM.png)
-![White Matter](figs/avg_WM.png)
+![Gray Matter](/posts/figs/avg_GM.png)
+![White Matter](/posts/figs/avg_WM.png)
 
 
 We are all set to create the multi-modal template with `antsMultivariateTemplateConstruction2.sh` by running the following command:
