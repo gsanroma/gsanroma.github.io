@@ -92,7 +92,7 @@ For the white matter:
 run ~/CODE/utils/filter_labels.py --in_dir ~/DATA/VBM_1158_tissue_WMH/tmp/ --in_suffix _aseg.nii.gz --out_dir ~/DATA/VBM_1158_tissue_WMH/tmp/filtered --out_suffix _WM.nii.gz --include 2 16 28 41 60 77 85 251 252 253 254 255 --fixed_id 1
 ```
 
-The images look like this:
+The images look like this kk:
 
 ![Gray Matter](figs/gm.png)
 ![White Matter](figs/wm.png)
