@@ -4,6 +4,7 @@ date: 2019-01-04
 permalink: /posts/2019/01/vbm-data-preparation/
 tags:
   - Neuroimaging
+  - ANTs
   - FreeSurfer
 ---
 
