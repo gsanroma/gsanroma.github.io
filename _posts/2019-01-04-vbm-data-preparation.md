@@ -152,6 +152,12 @@ We are all set to create the multi-modal template with `antsMultivariateTemplate
 Note that I use `-y 0` to avoid template drift in translation and orientation (having this problem otherwise).
 Also, decreased the number of iterations wrt the recommendation because it takes too long for so many images.
 
+The final template for both tissues look like this:
+
+![Gray Matter](/images/avg_final_GM.png)
+![White Matter](/images/avg_final_WM.png)
+
+
 ### Compute tissue density maps
 
 Tissue density maps are computed in the common space so that comparisons across subjects can be carried out.
