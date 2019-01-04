@@ -92,7 +92,7 @@ For the white matter:
 run ~/CODE/utils/filter_labels.py --in_dir ~/DATA/VBM_1158_tissue_WMH/tmp/ --in_suffix _aseg.nii.gz --out_dir ~/DATA/VBM_1158_tissue_WMH/tmp/filtered --out_suffix _WM.nii.gz --include 2 16 28 41 60 77 85 251 252 253 254 255 --fixed_id 1
 ```
 
-The images look like this lelele:
+The images look like this:
 
 ![Gray Matter](/images/gm.png)
 ![White Matter](/images/wm.png)
@@ -139,7 +139,7 @@ run ~/CODE/utils/average_images.py --in_dir tmp/ --in_suffix _GMWarped.nii.gz --
 ```
 (the same for \_WM.nii.gz).
 
-The initial templates look like this blabla:
+The initial templates look like this:
 
 ![Gray Matter](/images/avg_GM.png)
 ![White Matter](/images/avg_WM.png)
@@ -176,7 +176,7 @@ do
 	antsApplyTransforms -d 3 -i ${file} -r ${tpldir}/antsTPL_template0.nii.gz -o [${id}_fulltransf.nii.gz,1] -t ${tpldir}/antsTPL_${id}_GM*1Warp.nii.gz -t ${tpldir}/antsTPL_${id}_GM*0GenericAffine.mat --float || true
 ```
 where `tpldir` is the directory containing the ouput of `antsMultivariateConstruction2.sh` script.
-The bit ` || true` in the end of the command allows the script to run even some cases throw error (eg, due to missing files).
+The bit `|| true` in the end of the command allows the script to run even some cases throw error (eg, due to missing files).
 
 We create the Jacobian determinants (on both transformation versions) as follows:
 ```bash
