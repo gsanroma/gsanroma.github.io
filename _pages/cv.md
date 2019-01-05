@@ -7,7 +7,6 @@ redirect_from:
   - /resume
 ---
 
-Link to the [PDF](../files/cv_sanroma.pdf) version
 
 Skills
 ======
