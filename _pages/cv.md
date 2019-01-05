@@ -13,7 +13,7 @@ Skills
 ======
 * **Science & Tech**: At home with Machine Learning and Computer Vision \| Attentive to all steps of Data Science pipeline: acquisition, curation, modelling, validation and visualization \| Fluent with different types of data: images, biological and video
 * **Leadership**: Organization of the MRI group in the [Rhineland Study](https://www.rheinland-studie.de/) \| Supervision of 2 Ph.D students \| Organizer of the Patch-MI MICCAI Workshop, editions [2017](https://eventum.upf.edu/7621/detail/patchmi_-3rd-international-workshop-on-patch-based-techniques-in-medical-imaging.html) and [2018](https://www.dzne.de/en/news/events/scientific-events/patchmi/)
-* **Communication & teamwork**: Inter-disciplinary collaboration with epidemiologists, clinicians, imaging physicists and IT-experts | Deliver regular presentations as part of job duties and at conferences | Flexibility and adaptability by having worked & lived in 5 different countries | Active in [Twitter](https://twitter.com/gerard_sanroma), [Linkedin](https://www.linkedin.com/in/gsanroma/) and [Github](https://github.com/gsanroma)
+* **Communication & teamwork**: Inter-disciplinary collaboration with epidemiologists, clinicians, imaging physicists and IT-experts \| Deliver regular presentations as part of job duties and at conferences \| Flexibility and adaptability by having worked & lived in 5 different countries \| Active in [Twitter](https://twitter.com/gerard_sanroma), [Linkedin](https://www.linkedin.com/in/gsanroma/) and [Github](https://github.com/gsanroma)
 * **Software**: Python, Matlab, R, C, C++, Linux Bash, LATEX, Scikit-learn, Numpy, Theano, Pandas, Git
 
 Work experience
@@ -32,7 +32,7 @@ Work experience
   - Brain MRI segmentation with machine learning: low-rank matrix completion and support vector machines
 
 * 2012-2013: **Research Fellow** at the [Intelligent Imaging group at TNO](https://www.tno.nl/en/focus-areas/defence-safety-security/expertise-groups/intelligent-imaging/)
-  - Analysis of video-data for automated threat detection | Collaboration in EU project [ARENA](http://www.arena-fp7.eu/) for Security & Defence
+  - Analysis of video-data for automated threat detection \| Collaboration in EU project [ARENA](http://www.arena-fp7.eu/) for Security & Defence
 
   
 Education

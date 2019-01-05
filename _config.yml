@@ -8,7 +8,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Gerard Sanroma, personal site"
+title                    : "Gerard Sanroma"
 title_separator          : "-"
 name                     : &name "Gerard Sanroma"
 description              : &description "personal description"
