@@ -11,10 +11,10 @@ Link to the [PDF](../files/cv_sanroma.pdf) version
 
 Skills
 ======
-* **Science & Tech**: At home with Machine Learning and Computer Vision \| Attentive to all steps of Data Science pipeline: acquisition, curation, modelling, validation and visualization \| Fluent with different types of data: images, biological and video
+* **Science & Tech**: Machine Learning and Computer Vision \| Attentive to all steps of Data Science pipeline: acquisition, curation, modelling, validation and visualization \| Experience with different types of data: images, biological and video
 * **Leadership**: Organization of the MRI group in the [Rhineland Study](https://www.rheinland-studie.de/) \| Supervision of 2 Ph.D students \| Organizer of the Patch-MI MICCAI Workshop, editions [2017](https://eventum.upf.edu/7621/detail/patchmi_-3rd-international-workshop-on-patch-based-techniques-in-medical-imaging.html) and [2018](https://www.dzne.de/en/news/events/scientific-events/patchmi/)
 * **Communication & teamwork**: Inter-disciplinary collaboration with epidemiologists, clinicians, imaging physicists and IT-experts \| Deliver regular presentations as part of job duties and at conferences \| Flexibility and adaptability by having worked & lived in 5 different countries \| Active in [Twitter](https://twitter.com/gerard_sanroma), [Linkedin](https://www.linkedin.com/in/gsanroma/) and [Github](https://github.com/gsanroma)
-* **Software**: Python, Matlab, R, C, C++, Linux Bash, LATEX, Scikit-learn, Numpy, Theano, Pandas, Git
+* **Software**: Python, Matlab, C, C++, Linux Bash, LATEX, Scikit-learn, Numpy, Theano, Pandas, Git
 
 Work experience
 ======
@@ -24,9 +24,9 @@ Work experience
   - Develop a Deep Learning pipeline for automatic detection of brain lesions
   
 * 2015-2017: **Marie-Curie Research Fellow** at [BCN MedTech](https://www.upf.edu/web/bcn-medtech/)
-  - Develop general brain MRI analysis methods for di erent age groups
+  - Developed general brain MRI analysis methods for di erent age groups
   - Clinical collaborations with 1) the [Fetal Medicine Research Center](http://medicinafetalbarcelona.org/) to study fetal neurodevelopment and 2) the [Alfa Study](https://fpmaragall.org/en/research-alzheimer/alfa-study-against-alzheimer/) to study early neurodegeneration in middle-aged individuals
-  - Supervise the Ph.D. theses of Oualid M. Benkarim and Gerard Mart\'{i} Juan
+  - Supervised the Ph.D. theses of Oualid M. Benkarim and Gerard Mart\'{i} Juan
   
 * 2013-2015: **Research Fellow** at [IDEA group at UNC](https://www.med.unc.edu/bric/ideagroup/)
   - Brain MRI segmentation with machine learning: low-rank matrix completion and support vector machines
