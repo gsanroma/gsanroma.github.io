@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Gerard Sanroma"
 title_separator          : "-"
 name                     : &name "Gerard Sanroma"
-description              : &description "personal description"
+description              : &description "Computer Vision, Machine Learning and Neuroimaging"
 url                      : https://gsanroma.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gsanroma/gsanroma.github.io"
@@ -82,8 +82,8 @@ analytics:
 # Site Author
 author:
   name             : "Gerard Sanroma"
-  avatar           : "gerard_round.jpg"
-  bio              : "Researcher in Data Science, Neuroimaging and Computer Vision"
+  avatar           : "gerard_informal_cropped.jpg"
+  bio              : "Researcher in Neuroimaging, Machine Learning and Computer Vision"
   location         : "Bonn (Germany)"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=Z21amAoAAAAJ&hl=en"
