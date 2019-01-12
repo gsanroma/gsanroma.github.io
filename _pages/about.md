@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am interested in the application of Data Science and Computer Vision techniques to a variety of domains, lately in the Health Sciences.
+I am interested in the application of Machine Learning and Computer Vision techniques to a variety of domains, lately in the Health Sciences.
 During my Ph.D, I combined Bayesian modelling and multiple-view geometry for object detection and image matching.
 Afterwards, I undertook a safety & security project with the [Intelligent Imaging group at TNO](https://www.tno.nl/en/focus-areas/defence-safety-security/expertise-groups/intelligent-imaging/), where I used state-space models and stochastic grammars to automatically recognize threats from video feeds.
 I currently focus on the analysis of Neuroimaging for the Health Sciences.
