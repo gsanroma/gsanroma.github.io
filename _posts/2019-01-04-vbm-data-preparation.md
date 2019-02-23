@@ -8,13 +8,11 @@ tags:
   - FreeSurfer
 ---
 
-# Data preparation for Voxel-based morphometry analysis
+In this post I explain how to prepare the data to do voxel-based morphometry (VBM) using FreeSurfer segmentations.
 
-This post is about how to prepare the data to perform voxel-based morphometry (VBM) analysis using FreeSurfer segmentations.
-There are other VBM pipelines such as the one in SPM.
 There are a couple of reasons why I create this pipeline:
-1. I want to use custom tissue segmentations. Other VBM pipelines perform their own segmentations. In the case that you have invested time in segmenting and quality-checking your results for other purposes than VBM analysis, then it makes sense to utilize them, instead of computing them from scratch again. In my case, I use the FreeSurfer to obtain the segmentations
-2. The other advantage of building your own pipeline is that you can use your preferred group-wise registration approach. In my case I will use the excellent `antsMultivariateTemplateConstruction.sh` script.
+1. I want to use custom tissue segmentations. Other VBM pipelines perform their own segmentations. In the case that you have invested time in segmenting and quality-checking your results for other purposes than VBM analysis, then it makes sense to utilize them, instead of computing them again from scratch
+2. The other advantage of building your own pipeline is that you can use your preferred group-wise registration approach. In my case I will use `antsMultivariateTemplateConstruction.sh`
 
 The data preparation consists of the following steps:
 
@@ -22,7 +20,7 @@ The data preparation consists of the following steps:
 2. Build template
 3. Obtain tissue density maps 
 
-### Segment tissue
+## Segment tissue
 
 FreeSurfer aseg contains labels for a number of structures.
 We need to convert aseg labels to tissue labels.
@@ -97,7 +95,7 @@ The images look like this:
 ![Gray Matter](/images/gm.png)
 ![White Matter](/images/wm.png)
 
-### Build template
+## Build template
 
 We build a template by registering the WM and GM maps to a common space.
 We do this as a multi-modal template construction with `antsMultivariateTemplateConstruction2.sh` command, where GM and WM are input as separate channels.
@@ -158,7 +156,7 @@ The final template for both tissues look like this:
 ![White Matter](/images/avg_final_WM.png)
 
 
-### Compute tissue density maps
+## Compute tissue density maps
 
 Tissue density maps are computed in the common space so that comparisons across subjects can be carried out.
 They combine information on the tissue maps of each subject (warped to the template) and the deformations.

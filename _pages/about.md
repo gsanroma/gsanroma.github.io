@@ -12,5 +12,3 @@ I have a track record in applied machine learning and computer vision.
 My areas of interest include neuroimaging, population sciences and defence.
 I have worked with different data types including images, biological and video.
 I have experience managing small teams and enjoy multidisciplinary environments.
-
-Find my CV [here](/files/cv_sanroma.pdf).

@@ -105,7 +105,8 @@ author:
   orcid            : #"http://orcid.org/0000-0002-4450-8311"
   pinterest        :
   soundcloud       :
-  stackoverflow    : https://stackexchange.com/users/3420199/gsanroma
+  stackoverflow    : #https://stackexchange.com/users/3420199/gsanroma
+  stackexchange    : 3420199/gsanroma
   steam            :
   tumblr           :
   twitter          : "gerard_sanroma"

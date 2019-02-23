@@ -70,6 +70,9 @@
       {% if author.stackoverflow %}
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fa fab -fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>
       {% endif %}
+      {% if author.stackexchange %}
+        <li><a href="https://www.stackexchange.com/users/{{ author.stackexchange }}"><i class="fa fab -fw fa-stack-exchange" aria-hidden="true"></i> Stackexchange</a></li>
+      {% endif %}
       {% if author.lastfm %}
         <li><a href="https://lastfm.com/user/{{ author.lastfm }}"><i class="fab fa-lastfm-square" aria-hidden="true"></i> Last.fm</a></li>
       {% endif %}

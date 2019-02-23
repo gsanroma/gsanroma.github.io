@@ -8,11 +8,11 @@ tags:
   - FreeSurfer
 ---
 
-[Pysurfer](https://pysurfer.github.io/) is a Python package to display brain cortical surfaces with arbitrary quantitative overlays.
-In the backend, it uses the graphics card to generate the graphics via OpenGL.
-As result, you need access to a physical display to generate graphics, which makes it impossible to use in a remote (headless) server.
-In this post, I explain with detail how to set up offscreen rendering with Pysurfer.
-A docker file is available [here](/files/Dockerfile.cos7) that reproduces all the steps in detail.
+[Pysurfer](https://pysurfer.github.io/) is a Python package to display brain cortical surfaces with color overlays.
+In its most common configuration, it needs a working graphics card and physical display to generate the graphics via OpenGL.
+Therefore, you need to do some tweaking if you want to use in a remote (headless) server.
+In this post, I explain how to set up offscreen rendering with Pysurfer.
+A docker file reproducing all the steps in detail is available [here](/files/Dockerfile.cos7).
 
 Pysurfer uses [Mayavi](https://docs.enthought.com/mayavi/mayavi/) to generate the graphics, which in turn relies on `vtk`.
 Mayavi offers 3 possible solutions for offscreen rendering [here](https://docs.enthought.com/mayavi/mayavi/tips.html#off-screen-rendering).
@@ -25,8 +25,8 @@ Although options 1 and 2 are simpler, we did not manage to get them working.
 This is why I explain here in detail the steps for option 3.
 Specifically:
 1. install `llvmpipe`, a library for software rendering
-2. install `osmesa` and `glu` with rendering via `llvmpipe`
-3. install `vtk` with `osmesa`
+2. install `osmesa` and `glu` (with rendering via `llvmpipe`)
+3. install `vtk` 
 4. install `mayavi` and `pysurfer`
 
 # Install `llvmpipe`
@@ -36,12 +36,12 @@ Depending on the Linux distribution, there might be `osmesa_llvmpipe` package al
 We did not manage to compile `vtk` using the distribution-specific `osmesa_llvmpipe` installation (as required in the 3rd step).
 So we installed `llvmpipe` and compiled `osmesa` from source (in the next step).
 
-You might need to install the following dependencies first:
+You might need to install the following dependencies first (in centos):
 ```bash
 yum install -q -y hdf5 hdf5-devel tcl tcl-devel tk tk-devel
 ```
 
-Install `llvmpipe` (in centos):
+Install `llvmpipe`:
 ```bash
 yum install -y llvm-toolset-7
 ```
