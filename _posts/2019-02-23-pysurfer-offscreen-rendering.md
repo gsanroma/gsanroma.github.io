@@ -8,16 +8,13 @@ tags:
   - FreeSurfer
 ---
 
-[Pysurfer](https://pysurfer.github.io/) is a Python package to display brain cortical surfaces with quantitative information overlaid in the form of colored maps.
-It uses the meshes in FreeSurfer format.
-It allows to color at the level of each vertex and also at the level of ROI (as defined by the different FreeSurfer atlases).
-Different visualization styles are available with a great deal of flexibility on the different parameters.
+[Pysurfer](https://pysurfer.github.io/) is a Python package to display brain cortical surfaces with arbitrary quantitative overlays.
+In the backend, it uses the graphics card to generate the graphics via OpenGL.
+As result, you need access to a physical display to generate graphics, which makes it impossible to use in a remote (headless) server.
+In this post, I explain with detail how to set up offscreen rendering with Pysurfer.
+A docker file is available [here](/files/Dockerfile.cos7) that reproduces all the steps in detail.
 
-It uses [Mayavi](https://docs.enthought.com/mayavi/mayavi/) for graphics generation which uses VTK.
-VTK usually requires a graphics card to generate the graphics.
-As result, we may not be able to generate graphics with Pysurfer from a remote server without direct access to a physical display.
-This is a major drawback since most of the times we may be interested in the images more than in displaying the graphics on the screen.
-
+Pysurfer uses [Mayavi](https://docs.enthought.com/mayavi/mayavi/) to generate the graphics, which in turn relies on `vtk`.
 Mayavi offers 3 possible solutions for offscreen rendering [here](https://docs.enthought.com/mayavi/mayavi/tips.html#off-screen-rendering).
 Namely:
 1. avoid the rendering window by setting `mlab.options.offscreen = True`
@@ -25,14 +22,12 @@ Namely:
 3. use `vtk` with `osmesa` for pure software rendering
 
 Although options 1 and 2 are simpler, we did not manage to get them working.
-This is why we explain here in detail the steps for option 3.
+This is why I explain here in detail the steps for option 3.
 Specifically:
 1. install `llvmpipe`, a library for software rendering
 2. install `osmesa` and `glu` with rendering via `llvmpipe`
 3. install `vtk` with `osmesa`
 4. install `mayavi` and `pysurfer`
-
-We also make available a docker file [here](/files/Dockerfile.cos7) that reproduces all the steps in detail.
 
 # Install `llvmpipe`
 
