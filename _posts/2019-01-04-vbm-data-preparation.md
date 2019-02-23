@@ -3,7 +3,7 @@ title: 'Data preparation for Voxel-based morphometry analysis'
 date: 2019-01-04
 permalink: /posts/2019/01/vbm-data-preparation/
 tags:
-  - Neuroimaging
+  - neuroimaging
   - ANTs
   - FreeSurfer
 ---

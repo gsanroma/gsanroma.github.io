@@ -8,10 +8,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Gerard Sanroma"
+title                    : "gerard sanroma"
 title_separator          : "-"
-name                     : &name "Gerard Sanroma"
-description              : &description "Computer Vision, Machine Learning and Neuroimaging"
+name                     : &name "gerard sanroma"
+description              : &description "machine learning, neuroimaging and computer vision"
 url                      : https://gsanroma.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gsanroma/gsanroma.github.io"
@@ -81,12 +81,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Gerard Sanroma"
+  name             : "gerard sanroma"
   avatar           : "gerard_informal_cropped.jpg"
-  bio              : "Researcher in Neuroimaging, Machine Learning and Computer Vision"
-  location         : "Bonn (Germany)"
+  bio              : "machine learning, neuroimaging and computer vision"
+  location         : "bonn (germany)"
   employer         :
-  googlescholar    : "https://scholar.google.com/citations?user=Z21amAoAAAAJ&hl=en"
+  googlescholar    : #"https://scholar.google.com/citations?user=Z21amAoAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,10 +102,10 @@ author:
   instagram        :
   lastfm           :
   linkedin         : "gsanroma"
-  orcid            : "http://orcid.org/0000-0002-4450-8311"
+  orcid            : #"http://orcid.org/0000-0002-4450-8311"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : https://stackoverflow.com/users/6653273/gsanroma
   steam            :
   tumblr           :
   twitter          : "gerard_sanroma"

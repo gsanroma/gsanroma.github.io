@@ -1,0 +1,110 @@
+# Dockerfile to build OSMesa (and GLU) for CentOS 7 
+
+FROM centos:7
+MAINTAINER M.Shahid "shahid.khan@koeln.de"
+
+ENV LIBRARY_PATH=/opt/osmesa_llvmpipe/lib:$LIBRARY_PATH \
+    LD_LIBRARY_PATH=/opt/osmesa_llvmpipe/lib:/root/VTK/build/bin:$LD_LIBRARY_PATH \
+    PATH=/opt/miniconda/bin:/opt/miniconda/envs/vtksurfer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH
+
+RUN yum install -q -y pkgconfig bzip2 glibc-static libstdc++-static libtool automake fontconfig python-mako python-devel wget make cmake \
+    && yum groupinstall -q -y 'Development Tools' \
+    && yum install -y epel-release \
+    && yum-config-manager --enable epel \
+    && yum install -q -y hdf5 hdf5-devel tcl tcl-devel tk tk-devel \
+    && yum install -q -y centos-release-scl && yum install -y llvm-toolset-7 \
+    && scl enable llvm-toolset-7 bash \
+    && wget -q ftp://ftp.freedesktop.org/pub/mesa/older-versions/11.x/11.0.0/mesa-11.0.0-rc1.tar.gz -P /root \
+    && wget -q ftp://ftp.freedesktop.org/pub/mesa/glu/glu-9.0.0.tar.gz -P /root \
+    && cd /root \
+    && tar zxvf mesa-11.0.0-rc1.tar.gz \
+    && pushd mesa-11.0.0-rc1 \
+    && autoreconf -fi \
+    && CC=clang CXX=clang \
+    && ./configure CXXFLAGS="-fPIC -O2 -g -DDEFAULT_SOFTWARE_DEPTH_BITS=31" CFLAGS="-fPIC -O2 -g -DDEFAULT_SOFTWARE_DEPTH_BITS=31" LDFLAGS="-lm -lstdc++" \
+     --disable-xvmc --disable-glx --disable-dri --enable-opengl --disable-gles1 --disable-gles2 --disable-egl --with-dri-drivers="" --with-gallium-drivers="swrast" \
+     --enable-texture-float --enable-shared-glapi --enable-gallium-osmesa --enable-gallium-llvm=yes --prefix=/opt/osmesa_llvmpipe \
+    && make -j 10 && make install \
+    && popd \
+    && cd /root \
+    && tar zxvf glu-9.0.0.tar.gz \
+    && pushd glu-9.0.0 \
+    && CC=clang CXX=clang \
+    && ./configure PKG_CONFIG_PATH=/opt/osmesa_llvmpipe/lib/pkgconfig \
+      CXXFLAGS="-fPIC -O2"    CFLAGS="-fPIC -O2"     LDFLAGS="-lm -lstdc++" \
+      --enable-osmesa     --prefix=/opt/osmesa_llvmpipe \
+    && make -j 10 && make install \
+    && popd \
+    && rm -rf /root/mesa-11.0.0-rc1.tar.gz /root/glu-9.0.0.tar.gz
+
+
+RUN cd /root && wget http://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh \
+    && chmod a+x Miniconda2-latest-Linux-x86_64.sh \
+    && bash Miniconda2-latest-Linux-x86_64.sh -b -p /opt/miniconda \
+    && /opt/miniconda/bin/conda config --add channels conda-forge \
+    && /opt/miniconda/bin/conda create -y -n vtksurfer python=2.7 traits \
+    && source /opt/miniconda/bin/activate vtksurfer 
+
+RUN export LIBRARY_PATH=/opt/osmesa_llvmpipe/lib:$LIBRARY_PATH \
+    && export LD_LIBRARY_PATH=/opt/osmesa_llvmpipe/lib:$LD_LIBRARY_PATH \
+    && wget -q http://www.vtk.org/files/release/5.8/vtk-5.8.0.tar.gz -P /root \
+    && cd /root \
+    && source /opt/miniconda/bin/activate vtksurfer \
+    && tar zxvf vtk-5.8.0.tar.gz \
+    && rm -f vtk-5.8.0.tar.gz \
+    && cd /root/VTK \
+    && mkdir build && cd build \
+    && MESA_INSTALL_PREFIX=/opt/osmesa_llvmpipe/ \
+    && cmake \
+    -DBUILD_SHARED_LIBS=ON \
+    -DVTK_WRAP_PYTHON=ON \
+    -DVTK_USE_X=OFF \
+    -DVTK_USE_SYSTEM_HDF5=ON \
+    -DPYTHON_LIBRARY=/usr/lib64/libpython2.7.so \
+    -DPYTHON_INCLUDE_DIR=/usr/include/python2.7/ \
+    -DTCL_INCLUDE_PATH=/usr/include/tcl8.5/ \
+    -DTK_INCLUDE_PATH=/usr/include/tk/ \
+    -DOPENGL_INCLUDE_DIR=${MESA_INSTALL_PREFIX}/include \
+    -DOPENGL_gl_LIBRARY=${MESA_INSTALL_PREFIX}/lib/libGLU.so \
+    -DOPENGL_glu_LIBRARY=${MESA_INSTALL_PREFIX}/lib/libglapi.so \
+    -DVTK_OPENGL_HAS_OSMESA=ON \
+    -DOSMESA_INCLUDE_DIR=${MESA_INSTALL_PREFIX}/include \
+    -DOSMESA_LIBRARY=${MESA_INSTALL_PREFIX}/lib/libOSMesa.so .. \
+    && make -j 10 \
+    && cd /root/VTK/build/Wrapping/Python/ \
+    && python setup.py install \
+    && ln -s /opt/miniconda/envs/vtksurfer/lib/python2.7/site-packages/VTK-5.8.0-py2.7.egg/vtk /opt/miniconda/envs/vtksurfer/lib/python2.7/site-packages/vtk
+
+RUN export LIBRARY_PATH=/opt/osmesa_llvmpipe/lib:$LIBRARY_PATH \
+    && export LD_LIBRARY_PATH=/opt/osmesa_llvmpipe/lib:$LD_LIBRARY_PATH \
+    && source /opt/miniconda/bin/activate vtksurfer \
+    && pip install --no-cache numpy scipy matplotlib mayavi Pillow PySurfer==0.8.0 pandas \
+    && STARTUP=/opt/startup.sh \
+    && if [ ! -f "$STARTUP" ]; then \
+       echo '#!/usr/bin/env bash' >> $STARTUP; \
+       echo 'echo;echo "startup: setting environment"...' >> $STARTUP; \
+       echo 'if [ -f /docker_environment ];then' >> $STARTUP; \
+       echo '   source /docker_environment'  >> $STARTUP; \
+       echo 'fi'  >> $STARTUP; \
+       echo 'export LIBRARY_PATH=/opt/osmesa_llvmpipe/lib:$LIBRARY_PATH' >> $STARTUP; \
+       echo 'export LD_LIBRARY_PATH=/.singularity.d/libs:/VTK/build/bin:/usr/local/lib/python2.7/dist-packages/vtk:/opt/osmesa_llvmpipe/lib:/usr/lib:$LD_LIBRARY_PATH' >> $STARTUP; \
+       echo 'export PATH=/usr/local/bin:/usr/local/sbin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH' >> $STARTUP; \
+       echo 'source /opt/miniconda/bin/activate vtksurfer' >> $STARTUP; \
+       echo 'IFS=";" read -ra COMMANDS <<< "$@"' >> $STARTUP; \
+       echo 'for command in "${COMMANDS[@]}";do' >> $STARTUP; \
+       echo 'echo "`date` : executing ${command}";' >> $STARTUP; \
+       echo '${command}' >> $STARTUP; \
+       echo 'done' >> $STARTUP; \
+       fi \
+    && chmod 755 $STARTUP
+
+RUN echo "installing R and MCR..." \
+    && mkdir -p /mnt/dznehomes \
+    && yum install -y -q tcsh R \
+    && echo "install.packages(\"dplyr\", quiet=TRUE, repos=\"https://cran.rstudio.com\")" | R --no-save \
+    && yum clean packages
+
+ADD GA_scripts.tar.gz fdr2_deployed.tar.gz MCR2017b.tar.gz freesurfer.tar.gz /opt/
+ 
+
+ENTRYPOINT ["/opt/startup.sh"]
