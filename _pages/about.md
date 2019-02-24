@@ -1,11 +1,11 @@
 ---
 permalink: /
-title: "home"
-excerpt: "home"
+title: "about"
+excerpt: "about"
 author_profile: true
 redirect_from: 
-  - /home/
-  - /home.html
+  - /about/
+  - /about.html
 ---
 
-this is the home page explaining what the site is about
+this is the old about page
