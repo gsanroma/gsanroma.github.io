@@ -1,11 +1,8 @@
 ---
-permalink: /
+layout: archive
 title: "bio"
-excerpt: "bio"
+permalink: /bio/
 author_profile: true
-redirect_from: 
-  - /bio/
-  - /bio.html
 ---
 
 I have a track record of applied machine learning and computer vision.
