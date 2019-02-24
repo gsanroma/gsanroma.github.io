@@ -8,4 +8,6 @@ redirect_from:
   - /home.html
 ---
 
-this is the NEW home page
+I use this page to put my things together
+
+Check my [short bio](/bio/) to know a little about my professional trajectory
