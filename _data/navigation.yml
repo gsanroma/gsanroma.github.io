@@ -1,5 +1,8 @@
 # main links links
 main:
+  - title: "bio"
+    url: /bio/
+    
   - title: "publications"
     url: /publications/
 
@@ -14,9 +17,6 @@ main:
         
   - title: "blog"
     url: /year-archive/
-    
-  - title: "bio"
-    url: /bio/
     
 #  - title: "Guide"
 #    url: /markdown/
