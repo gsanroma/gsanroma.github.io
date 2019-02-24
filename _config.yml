@@ -8,7 +8,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "gerard sanroma"
+title                    : "home"
 title_separator          : "-"
 name                     : &name "gerard sanroma"
 description              : &description "machine learning, neuroimaging and computer vision"
