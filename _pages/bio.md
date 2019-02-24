@@ -16,4 +16,4 @@ Professional trajectory:
 - [Marie-Curie fellowship](https://ec.europa.eu/research/mariecurieactions/actions/individual-fellowships_en) with [BCN-MedTech](https://www.upf.edu/web/bcn-medtech/) to analyze 1) fetal neurodevelopment and 2) neurodegeneration. Both projects are collaborations with [fetal medicine research center](http://medicinafetalbarcelona.org/) and [Pasqual Maragall foundation](https://fpmaragall.org/en/), respectively
 - analysis of brain MRI in the [Rhineland Study](https://www.rheinland-studie.de/), a population study with [DZNE](https://www.dzne.de/en/research/research-areas/population-health-sciences/) to investigate the determinants of neurodegenerative diseases
 
-See my [cv](/files/cv_sanroma.pdf) for more details
+(see my [cv](/files/cv_sanroma.pdf) for more details)

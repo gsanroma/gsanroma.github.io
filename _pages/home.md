@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 Welcome to my site!
-Here, you will find:
+here you will find:
 - a [short bio](/bio/) with my professional trajectory
 - an updated list of my [publications](/publications/)
 - a list my github [code](/code/) repositories
