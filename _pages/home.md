@@ -8,10 +8,10 @@ redirect_from:
   - /home.html
 ---
 
-I put my things together in this site:
-
-- check my [short bio](/bio/) to know about my professional trajectory
-- I keep an updated list of my [publications](/publications/)
-- checkout descriptions of my github [code](/code/) repositories
-- [here](/blog/), I blog about my interests 
-- I am active in [twitter](https://twitter.com/gerard_sanroma), [linkedin](https://www.linkedin.com/in/gsanroma/) and [stats.stackexchange](https://stats.stackexchange.com/users/124941/gsanroma)
+Welcome to my site!
+Here, you will find:
+- a [short bio](/bio/) with my professional trajectory
+- an updated list of my [publications](/publications/)
+- a list my github [code](/code/) repositories
+- a list of [blog](/blog/) articles on topics of my interest
+- links to my [twitter](https://twitter.com/gerard_sanroma), [linkedin](https://www.linkedin.com/in/gsanroma/) and [stats.stackexchange](https://stats.stackexchange.com/users/124941/gsanroma) accounts
