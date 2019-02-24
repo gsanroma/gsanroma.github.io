@@ -1,14 +1,11 @@
 ---
 permalink: /
-title: "about me"
-excerpt: "about me"
+title: "home"
+excerpt: "home"
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+  - /home/
+  - /home.html
 ---
 
-I have a track record in applied machine learning and computer vision.
-My areas of interest include neuroimaging, population sciences and defence.
-I have worked with different data types including images, biological and video.
-I have experience managing small teams and enjoy multidisciplinary environments.
+this is the home page explaining what the site is about
