@@ -1,5 +1,5 @@
 ---
-title: 'Offscreen rendering with Pysurfer'
+title: 'offscreen rendering with pysurfer'
 date: 2019-02-23
 permalink: /posts/2019/01/pysurfer-offscreen-rendering/
 tags:
