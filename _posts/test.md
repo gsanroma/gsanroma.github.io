@@ -6,5 +6,6 @@ tags:
   - test
 ---
 
+hello this is a test post
 
 ![test animation](/images/anim.gif)
