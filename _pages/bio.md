@@ -8,8 +8,6 @@ author_profile: true
 I have a track record of applied machine learning and computer vision.
 My areas of interest include neuroimaging, population sciences and defence.
 
-Jandemore
-
 Professional trajectory:
 - phd on multiple-view geometry for object detection and image matching at [DEIM-URV](http://deim.urv.cat/)
 - automatic threat recognition from video with [intelligent imaging at TNO](https://www.tno.nl/en/focus-areas/defence-safety-security/expertise-groups/intelligent-imaging/)
