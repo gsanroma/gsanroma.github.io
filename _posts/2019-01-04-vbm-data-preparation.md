@@ -92,8 +92,8 @@ run ~/CODE/utils/filter_labels.py --in_dir ~/DATA/VBM_1158_tissue_WMH/tmp/ --in_
 
 The images look like this:
 
-![Gray Matter](/images/gm.png)
-![White Matter](/images/wm.png)
+![Gray Matter](/images/blog/2019-01-04-vbm-data-preparation/gm.png)
+![White Matter](/images/blog/2019-01-04-vbm-data-preparation/wm.png)
 
 ## Build template
 
@@ -139,8 +139,8 @@ run ~/CODE/utils/average_images.py --in_dir tmp/ --in_suffix _GMWarped.nii.gz --
 
 The initial templates look like this:
 
-![Gray Matter](/images/avg_GM.png)
-![White Matter](/images/avg_WM.png)
+![Gray Matter](/images/blog/2019-01-04-vbm-data-preparation/avg_GM.png)
+![White Matter](/images/blog/2019-01-04-vbm-data-preparation/avg_WM.png)
 
 
 We are all set to create the multi-modal template with `antsMultivariateTemplateConstruction2.sh` by running the following command:
@@ -152,8 +152,8 @@ Also, decreased the number of iterations wrt the recommendation because it takes
 
 The final template for both tissues look like this:
 
-![Gray Matter](/images/avg_final_GM.png)
-![White Matter](/images/avg_final_WM.png)
+![Gray Matter](/images/blog/2019-01-04-vbm-data-preparation/avg_final_GM.png)
+![White Matter](/images/blog/2019-01-04-vbm-data-preparation/avg_final_WM.png)
 
 
 ## Compute tissue density maps
