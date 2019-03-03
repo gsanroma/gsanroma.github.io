@@ -96,11 +96,42 @@ This is the approach taken in voxel-based morphometry (in neuroimage) or the fam
 In this way we may extract conclusions about each individual entity.
 Prediction allows us to account for the joint effect
 
-It is something obvious that we may not aspire to explain perfectly.
-Because of random errors. 
-Wrong model assumptions.
-Factors not considered.
+By aspiring to explain perfectly we fit the idiosincracies of the particular sample that will vary with another sample.
 
-Machine learning theory explains this phenomenon as the [bias-variance tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff).
-This property states that a s
+We want a model that explains the relationships in our data as accurately as possible.
+We also want a model that tells something about the population.
+It just happens that, when we have many explanatory variables, when we try to fit the data, we are trading-off generalization.
+That is, the model becomes specific to the sample and therefore varies when changing sample, which contradicts the fact that is generalizable.
+Therefore, we need to find a trade-off between accuracy in fitting the data and constancy of the model when fitted on another sub-set.
+In machine learning theory, this is known as the [bias-variance tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff).
+
+It may seem counter-intuitive to sacrifice fitting, ie, to introduce errors on purpose.
+As an argument for this, you can think of the fact that it is not reasonable to aspire to explain the data perfectly for the following reasons:
+- random errors: the same person may perform differently in the same test for no specific causes 
+- wrong model assumptions: the linear model proposed may not be the correct one to explain the phenomenon
+- missing factors: we may be not measuring factors that are influencing the cognitive performance
+
+We sacrifice fitting by making models simpler and as consequence we aspire to capture a relationship that generalizes.
+
+One way to do this is to restrict the model to only use a reduced set of variables instead of all.
+This is the approach followed by best-feature-subset methods such as the [lasso](https://en.wikipedia.org/wiki/Lasso_(statistics)).
+
+How do we decide on the appropriate complexity ?
+This is the topic of [model selection](https://en.wikipedia.org/wiki/Model_selection).
+One of the most common is [cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)), which consists in helding-out part of the data for measuring generalizability.
+ 
+Let's do this.
+- We partition in 3 sets train, validation and test.
+- In the training set we fit different versions of the model, by varying the degree of complexity.
+- In the validation set we measure prediction accuracy, ie, how well the model fitted on training predicts cognition on the validation set ?
+- We select the complexity level that best predicts on the validation
+- We train on the whole data (training and validation) with the chosen complexity level
+
+Now we can test the model on the test set, which has not been used before, and which represents new data that may come in the future.
+The image below shows the prediction on a test set using age, sex and all brain variables.
+
+![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/plot_lasso.png)
+
+Let's see what brain structures got selected by lasso as important for prediction of cognition (and the magnitude of the importance).
+
 
