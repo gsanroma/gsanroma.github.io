@@ -68,7 +68,7 @@ Since we have included age and sex in the model, what we are interested in brain
 
 Since there are lot of variables in the brain (>50), we show below an animation by including one variable at a time (starting by age and sex), to see how the variance is gradually explained.
 
-![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/anim.png)
+![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/anim.gif)
 
 As we include more variables the fit gets better until eventually the predictions in our sample are perfect.
 We could now look at the coefficients to deduce importance of regions.
@@ -101,5 +101,6 @@ Because of random errors.
 Wrong model assumptions.
 Factors not considered.
 
-Machine learning theory provide 
+Machine learning theory explains this phenomenon as the [bias-variance tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff).
+Basically 
 
