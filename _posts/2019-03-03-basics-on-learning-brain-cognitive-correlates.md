@@ -135,3 +135,10 @@ The image below shows the prediction on a test set using age, sex and all brain 
 Let's see what brain structures got selected by lasso as important for prediction of cognition (and the magnitude of the importance).
 
 
+![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/ef_dorsal.png)
+![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/evm_dorsal.png)
+![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/ps_dorsal.png)
+![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/wm_dorsal.png)
+
+
+
