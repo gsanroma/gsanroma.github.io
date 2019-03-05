@@ -7,15 +7,14 @@ tags:
   - neuroimaging
 ---
 
-In this post I explain how to go about when trying to find potential determinants for cognition among high-dimensional data such as that from brain structure.
-I show that techniques used when few determinants such as age and sex are no longer useful.
-Finally, I show how machine learning provides an explanation for this issue and proposes a solution.
-
+In this post I show the challenges when predicting cognitive abilities using high-dimensional data from brain structure, age and sex as input.
+Standard techniques used when considering only a few determinants such as age and sex are not useful in high-dimensional settings.
+I show how machine learning provides an explanation for this issue and proposes a solution.
 
 Cognitive abilities can be measured across multiple domains such as _working memory_, _processing speed_, _episodic verbal memory_ and _executive function_.
 One may wonder how they are determined by factors such as age and sex.
-Similarly, one may also want to know how much left is determined by brain structure.
-To answer these questions one may use regression analysis to assess the association between cognition and these factors or, put another way, to predict cognition using these factors as input.
+One may also want to know how much left is determined by brain structure.
+To answer these questions, we can use regression analysis to assess the association between cognition and these factors or, put another way, to predict cognition using these factors as input.
 
 To get an idea of the data, here we plot different cognitive abilities with respect to age for a subset of participants in the [Rhineland Study](https://www.rheinland-studie.de/) (variables have been standardized to zero-norm, unit standard deviation).
 
@@ -50,7 +49,10 @@ To further improve prediction, we may proceed by including other factors such as
 We see that adding sex brings the predictions a bit closer to the true values.
 
 If available, information about the brain structure is another obvious candidate that may improve the predictions.
-Luckily enough, we have information about thickness across 50+ cortical brain structures in our sample.
+Luckily, we have information about thickness across 50+ cortical brain structures in our sample.
+The cortical brain structures are depicted in different colors in the parcellation below:
+
+![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/rois.png)
 
 Below we show the evolution of the prediction by gradually adding all the available variables, starting by age and sex and continuing with the cortical thickness measures.
 
@@ -74,7 +76,7 @@ To see how well the learned functions capture the relationships between the biol
 ![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/plot_oos.png)
 
 The errors are so large that do not even fit in the plot.
-** What has happened ?**
+**What has happened ?**
 With so many inputs, the function is flexible enough to behave in any way we want.
 As result, it only learns relationships between inputs and output specific to the training data but that do not hold to other participants.
 In machine learning terms, this is known as [overfitting](https://en.wikipedia.org/wiki/Overfitting).
