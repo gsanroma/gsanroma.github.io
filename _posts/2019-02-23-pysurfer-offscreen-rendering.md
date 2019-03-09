@@ -36,7 +36,7 @@ Depending on the Linux distribution, there might be `osmesa_llvmpipe` package al
 We did not manage to compile `vtk` using the distribution-specific `osmesa_llvmpipe` installation (as required in the 3rd step).
 So we installed `llvmpipe` and compiled `osmesa` from source (in the next step).
 
-**this is changed**
+**this is changed again**
 
 You might need to install the following dependencies first (in centos):
 ```bash
