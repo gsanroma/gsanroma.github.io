@@ -38,7 +38,7 @@ So we installed `llvmpipe` and compiled `osmesa` from source (in the next step).
 
 You might need to install the following dependencies first (in centos):
 ```
-yum install -q -y hdf5 hdf5-devel tcl tcl-devel tk tk-devel
+yum install -q -y hdf5 hdf5-devel tcl tcl-devel tk tk-devel kk
 ```
 
 Install `llvmpipe`:
