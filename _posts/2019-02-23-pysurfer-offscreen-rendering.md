@@ -36,10 +36,8 @@ Depending on the Linux distribution, there might be `osmesa_llvmpipe` package al
 We did not manage to compile `vtk` using the distribution-specific `osmesa_llvmpipe` installation (as required in the 3rd step).
 So we installed `llvmpipe` and compiled `osmesa` from source (in the next step).
 
-**what passiert**
-
 You might need to install the following dependencies first (in centos):
-```
+```bash
 yum install -q -y hdf5 hdf5-devel tcl tcl-devel tk tk-devel
 ```
 
