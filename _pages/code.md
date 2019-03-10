@@ -7,8 +7,12 @@ author_profile: true
 
 ## [learning embeddings with neural networks for label fusion](https://github.com/gsanroma/deeplf)
 
-This repository contains the code for the brain MRI segmentation method described in [this](https://doi.org/10.1016/j.media.2017.11.013) paper.
+repository for the brain MRI segmentation as described in [this](https://doi.org/10.1016/j.media.2017.11.013) paper.
 
 ## [neuroimaging scripts](https://github.com/gsanroma/nimg-scripts)
 
-This repository contains scripts I've developed over the last years for efficient processing of neuroimaging data
+repository of personal scripts for efficient neuroimaging processing
+
+## [smooth point-set registration using neighboring constraints](http://es.mathworks.com/matlabcentral/fileexchange/35179-smooth-point-set-registration-using-neighboring-constraints)
+
+rigid and non-rigid point-set registration using graphs
