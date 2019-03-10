@@ -5,4 +5,4 @@ permalink: /publications/under-review/
 author_profile: true
 ---
 
-this is an example of under review
+- this is an example of under review
