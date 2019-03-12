@@ -9,7 +9,9 @@ author_profile: true
 
 - G Martí-Juan, **G Sanroma** and G. Piella: [Revealing heterogeneity of brain imaging phenotypes in Alzheimer’s disease based on unsupervised clustering of blood marker profiles](https://doi.org/10.1371/journal.pone.0211121). _PLoS ONE (2019)_
 
-- L Wang, D Nie, G Li, E Puybareau, J Dolz, Q Zhang, F Wang, J Xia, Z Wu, J Chen, KH Thung, TD Bui, J Shin, G Zeng, G Zheng, VS Fonov, A Doyle, Y Xu, P Moeskops, JPW Pluim, C Desrosiers, IB Ayed, **G Sanroma**, OM Benkarim, A Casamitjana, V Vilaplana, W Lin, G Li, and D Shen: Benchmark on Automatic 6-month-old Infant Brain Segmentation Algorithms: The iSeg-2017 Challenge (in press) _IEEE Transactions on Medical Imaging (2019)_
+- O Bernard, A Lalande, C Zotti, F Cervenansky, X Yang, PA Heng, I Cetin, K Lekadir, O Camara, MA González Ballester, **G Sanroma**, S Napel, S Petersen, G Tziritas, E Grinias, M Khened, VA Kollerathu, G Krishnamurthi, MM Rohé, X Pennec, M Sermesant, F Isensee, P Jäger, KH Maier-Hein, CF Baumgartner, LM Koch, JM Wolterink, I Isgum, Y Jang, Y Hong, J Patravali, S Jain, O Humbert and PM Jodoin: [Deep Learning Techniques for Automatic MRI Cardiac Multi-structures Segmentation and Diagnosis: Is the Problem Solved?](https://doi.org/10.1109/TMI.2018.2837502). _IEEE Transactions on Medical Imaging (2019)_
+
+- L Wang, D Nie, G Li, E Puybareau, J Dolz, Q Zhang, F Wang, J Xia, Z Wu, J Chen, KH Thung, TD Bui, J Shin, G Zeng, G Zheng, VS Fonov, A Doyle, Y Xu, P Moeskops, JPW Pluim, C Desrosiers, IB Ayed, **G Sanroma**, OM Benkarim, A Casamitjana, V Vilaplana, W Lin, G Li, and D Shen: __Benchmark on Automatic 6-month-old Infant Brain Segmentation Algorithms: The iSeg-2017 Challenge__ (in press) _IEEE Transactions on Medical Imaging (2019)_
 
 ## 2018
 
