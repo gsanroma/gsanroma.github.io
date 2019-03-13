@@ -1,14 +1,14 @@
 ---
-title: 'test'
+title: 'can we predict cognitive abilities from high-dimensional brain data using conventional (unpenalized) regression ?'
 date: 
-permalink: /posts/2019/03/basics-on-learning-brain-cognitive-correlates/
+permalink: /posts/2019/03/predict-cognition/
 tags:
   - machine learning
   - neuroimaging
 ---
 
-In this post I show the challenges when predicting cognitive abilities using high-dimensional data from brain structure as input.
-Standard regression techniques, used when a few explanatory variables are available, are not useful in high-dimensional settings.
+In this post I explain the challenges in predicting cognitive abilities using high-dimensional brain data using conventional (unpenalized) regression, but the ideas here explained apply generally to the modeling of relationships between any input and output data in high dimensions.
+Conventional regression techniques are not useful in high-dimensional settings.
 I show how machine learning provides an explanation for this issue and proposes a solution.
 
 Cognitive abilities can be measured across multiple domains such as _working memory_, _processing speed_, _episodic verbal memory_ and _executive function_.
@@ -18,25 +18,25 @@ To answer these questions, we can use regression analysis to assess the associat
 
 To get an idea of the data, we plot different cognitive abilities with respect to age for a subset of participants in the [Rhineland Study](https://www.rheinland-studie.de/) (variables have been standardized to zero-norm, unit standard deviation).
 
-![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/plot_cog_age.png)
+![](/images/blog/2019-03-13-predict-cognition/plot_cog_age.png)
 
 Let's define a function that predicts cognition based on age.
 
-![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/fn_cog_age.png)
+![](/images/blog/2019-03-13-predict-cognition/fn_cog_age.png)
 
 (we are assuming a linear relationship between age and cognition)
 
-In regression analysis, we need a set of examples with pairs of values for age (![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/x.png)) and cognition (![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/y.png)). 
+In regression analysis, we need a set of examples with pairs of values for age (![](/images/blog/2019-03-13-predict-cognition/x.png)) and cognition (![](/images/blog/2019-03-13-predict-cognition/y.png)). 
 We estimate the beta coefficients that make up the function as follows:
 
-![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/fn_opt.png)
+![](/images/blog/2019-03-13-predict-cognition/fn_opt.png)
 
 That is, we seek the function _f()_ that predicts with minimum error (ie, squared difference) the cognitive abilities _y_ in our sample.
 We plot the predictions for our sample in red below.
 Errors are represented as black lines joining predictions with true values.
 (we actually compute 4 different functions, one for each cognitive domain)
 
-![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/plot_cog_age_pred1.png)
+![](/images/blog/2019-03-13-predict-cognition/plot_cog_age_pred1.png)
 
 We see that predictions look like a straight line.
 This is because we have used a linear function.
@@ -46,7 +46,7 @@ Let us only note that in general, the greater the magnitude of the beta coeffici
 
 To further improve prediction, we may include other factors such as sex.
 
-![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/plot_cog_age_pred2.png)
+![](/images/blog/2019-03-13-predict-cognition/plot_cog_age_pred2.png)
 
 Adding sex brings the predictions a bit closer to the true values.
 
@@ -54,11 +54,11 @@ If available, we may further include information about brain structure.
 Luckily, we have information about thickness across 50+ cortical brain structures in our sample.
 The cortical brain structures are depicted in different colors in the parcellation below:
 
-![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/rois.png)
+![](/images/blog/2019-03-13-predict-cognition/rois.png)
 
 Below we show the evolution of the prediction by gradually adding all the available variables, starting by age and sex and following with the cortical thickness measures.
 
-![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/lars_anim.gif)
+![](/images/blog/2019-03-13-predict-cognition/lars_anim.gif)
 
 As we include more variables the fit gets better until eventually we obtain perfect prediction in our sample.
 
@@ -75,7 +75,7 @@ Let us make clear the distinction between **learning** and **prediction**.
 Note that prediction can be done in _the same_ or _another_ dataset as the one used for learning the functions.
 To see how well the learned functions capture any meaningful relationship, let us predict onto a different set of participants.
 
-![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/plot_oos.png)
+![](/images/blog/2019-03-13-predict-cognition/plot_oos.png)
 
 The errors are so large that do not even fit in the plot.
 **What has happened ?**
@@ -98,16 +98,17 @@ The bias-variance trade-off suggests that we should sacrifice data fitting for t
 Although it may not be obvious how allowing for training errors improves generalization, I would argue it is otherwise unreasonable to pursue a perfect fitting for the following reasons:
 - _missing inputs_: we may be missing relevant biological factors that determine cognitive performance
 - _wrong model assumptions_: the relationships between the inputs and outputs in our model (linear in our example) may not be correct
-- _random errors_: the same person may perform differently in the same test for reasons that may not be determined
+- _random errors_: the same person may perform differently in the same test for reasons that cannot be determined
 
 Now that I hope I have convinced you, you may ask 1) how we control the degree of flexibility of our function and 2) how to select the appropriate degree ?
 The first question relates to the topic of [regularization](https://en.wikipedia.org/wiki/Regularization_(mathematics)).
 Best-feature-subset selection methods such as the [lasso](https://en.wikipedia.org/wiki/Lasso_(statistics)) address this issue by restricting the model to only use a sub-set of the inputs.
 
 The second question on how to decide on the appropriate degree of flexibility relates to the topic of [model selection](https://en.wikipedia.org/wiki/Model_selection).
-One of the most common model selection approaches is [cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)), which consists in helding-out part of the data for assessing generalizability.
+We want to select the model that will perform the best on new data and, for that, we need first to estimate the generalization error.
+One of the most popular method to estimate the generalization error, and thereby inform model-selection, is [cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)), which consists in performing _learning_ and _prediction_ in different partitions of the dataset.
  
-In the following, I describe how we go about performing model selection in our problem:
+In the following, I describe how we go about selecting the model for our problem:
 - Partition the dataset in 3 parts for training, validation and test.
 - Using the training set, we learn different versions of the model, by varying the degree of complexity (with the lasso).
 - Using the validation set, we measure prediction accuracy, ie, how well the model learned on the training data predicts cognition on the validation set
@@ -116,14 +117,14 @@ In the following, I describe how we go about performing model selection in our p
 Now, we can use the learned model to predict the cognitive performance on the data from the test set, which has not been used at all, and which represents new data that may come in the future.
 The image below shows the prediction on a test set, by our model selected by the cross-validation procedure above.
 
-![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/plot_lasso.png)
+![](/images/blog/2019-03-13-predict-cognition/plot_lasso.png)
 
-Now that we know our model does not overfit the data, we can inspect the selected variables to ascertain what brain structures are important for predicting cognition.
-The image below shows the brain structures selected by lasso, where blue / red denote respectively that the  thickening / thinning of the corresponding structure is associated with higher cognitive performance.
+Now that we know our model is not overfitted to the training data, we can inspect the selected variables to ascertain what brain structures are important for predicting cognition.
+The image below shows the brain structures selected by lasso, where blue / red denote respectively that the  thickening / thinning of the corresponding structure is associated with higher cognitive performance in each respective domain.
 
 
-![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/ef_dorsal.png)
-![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/evm_dorsal.png)
-![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/ps_dorsal.png)
-![](/images/blog/2019-03-03-basics-on-learning-brain-cognitive-correlates/wm_dorsal.png)
+![](/images/blog/2019-03-13-predict-cognition/ef_dorsal.png)
+![](/images/blog/2019-03-13-predict-cognition/evm_dorsal.png)
+![](/images/blog/2019-03-13-predict-cognition/ps_dorsal.png)
+![](/images/blog/2019-03-13-predict-cognition/wm_dorsal.png)
 
