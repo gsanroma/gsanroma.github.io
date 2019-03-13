@@ -1,5 +1,5 @@
 ---
-title: 'can we predict cognitive abilities from high-dimensional brain imaging data using conventional (unpenalized) regression ?'
+title: 'can we predict cognitive abilities from brain imaging data using conventional (unpenalized) regression ?'
 date: 2019-03-13
 permalink: /posts/2019/03/predict-cognition/
 tags:
