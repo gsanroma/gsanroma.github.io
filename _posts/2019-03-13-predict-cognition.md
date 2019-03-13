@@ -119,7 +119,9 @@ The image below shows the prediction on a test set, by our model selected by the
 
 ![](/images/blog/2019-03-13-predict-cognition/plot_lasso.png)
 
-Now that we know our model is not overfitted to the training data, we can inspect the selected variables to ascertain what brain structures are important for predicting cognition.
+**As we can see, age remains the best predictor for cognition, but regularized regression + model selection allowed us to incorporate high-dimensional brain imaging data to refine a bit more the predictions.**
+
+Now that we know our model is not overfitted to the training data, we can inspect the selected variables to ascertain what brain structures got picked up as useful for predicting cognition.
 The image below shows the brain structures selected by lasso, where blue / red denote respectively that the  thickening / thinning of the corresponding structure is associated with higher cognitive performance in each respective domain.
 
 
