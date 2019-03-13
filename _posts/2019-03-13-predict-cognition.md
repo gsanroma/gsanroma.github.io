@@ -1,5 +1,5 @@
 ---
-title: 'can we predict cognitive abilities from high-dimensional brain data using conventional (unpenalized) regression ?'
+title: 'can we predict cognitive abilities from high-dimensional brain imaging data using conventional (unpenalized) regression ?'
 date: 2019-03-13
 permalink: /posts/2019/03/predict-cognition/
 tags:
@@ -7,7 +7,7 @@ tags:
   - neuroimaging
 ---
 
-In this post I explain the challenges in predicting cognitive abilities from high-dimensional brain data using conventional (unpenalized) regression, but the ideas here explained apply generally to the modeling of relationships between any input and output data in high dimensions.
+In this post I explain the challenges in predicting cognitive abilities from high-dimensional brain imaging data using conventional (unpenalized) regression, but the ideas here explained apply generally to the modeling of relationships between any input and output data in high dimensions.
 Conventional regression techniques are not useful in high-dimensional settings.
 I show how machine learning provides an explanation for this issue and proposes a solution.
 
