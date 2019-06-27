@@ -170,12 +170,13 @@ for u1 in u1_set:
     for u2 in u2_set:
         if u2 == 0: continue
         mask2 = depth == u2
-        if not np.any(mask2): continue
-        out[np.logical_and(mask1, mask2)] = int(str(u1) + str(u2))  # new label id by concatenating [u1, u2]
+        mask3 = np.logical_and(mask1, mask2)
+        if not np.any(mask3): continue
+        out[mask3] = int(str(u1) + str(u2))  # new label id by concatenating [u1, u2]
 ```
 
 where `lobes` and `depth` contain the lobar and depth parcels, respectively.
-For easy interpretation, the labels IDs of each bullseye parcel are created by concatenating the lobar and depth IDs.
+For easy interpretation, we generate the labels IDs of each bullseye parcel as concatenation of the lobar and depth IDs.
 
 I hope that this tutorial was helpful.
-You can download and use the package to create the bullseye parcellations in [my github repository](https://github.com/gsanroma/bullseye_pipeline).
+You can download and use the package to create the bullseye parcellations in [this github repository](https://github.com/gsanroma/bullseye_pipeline).
