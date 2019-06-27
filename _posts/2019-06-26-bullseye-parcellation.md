@@ -80,7 +80,7 @@ python filter_labels.py --in_dir path/to/lobar/folder/ --in_suffix +aseg.nii.gz 
 ```
 
 Very briefly, we merge the _insular_ (`3007`, `4007`) with frontal (`3001`, `4001`) lobes.
-We exclude the ~~weird~~ lobe in the superior part of the brain (`3003`, `4003`).
+We exclude the lobe in the superior part of the brain (`3003`, `4003`).
 Lastly, we assign informative 2-digit labels to the lobes (`--map` arguments), with 1st digit denoting the hemisphere and 2nd digit the acutal lobe.
 
 The lobar parcellations are almost (but not yet) ready.
@@ -94,6 +94,12 @@ We accomplish this using a so-called _normalized distance map_, which will be al
 ### normalized distance map
 
 We call _normalized distance map_, a map defined in the image, with the characteristics that its value is 0 on the ventricles, 1 on the cortex and smoothly interpolates in-between. 
+Here I show one example:
+
+![](/images/blog/2019-06-26-bullseye-parcellation/ndist.png)
+
+(we can easily discard values outside our region of interest with a WM mask)
+
 It can be easily created in Python with the following 5 lines of code:
 
 ```python
