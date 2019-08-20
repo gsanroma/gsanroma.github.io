@@ -12,7 +12,7 @@ The software package recreating the parcellations according to this post is free
 So, let's get started!
 
 The bullseye parcellation that we are aim at creating divides the white matter into a set of concentric regions (ie, layers) spanning from ventricles to cortex that are in turn divided into spatially contiguous regions (ie, lobes).
-It can be used to obtain region-specific quantification of white matter parameters (eg, a similar approach has been used to quantify regional white matter hyperintensity load in [this](https://doi.org/10.1016/j.neurad.2017.10.001) and [this](https://doi.org/10.1016/j.jalz.2014.07.155) papers). 
+It can be used to obtain region-specific quantification of white matter parameters (eg, a similar approach has been used to quantify regional white matter hyperintensity load in [this](https://link.springer.com/chapter/10.1007/978-3-030-00919-9_10) and [this](https://doi.org/10.1016/j.neurad.2017.10.001) papers). 
 
 
 The image below shows an example bullseye parcellation
