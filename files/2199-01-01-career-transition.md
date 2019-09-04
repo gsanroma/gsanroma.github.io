@@ -26,11 +26,11 @@ I find it is not necessary that one meets all the requirements but one should me
 It is also interesting to look for the companies ratings in terms of employee satisfaction. Some job-portals like Glassdor include this feature. Other portals like kununu are exclusively dedicated to this.
 
 The next step is to apply for the offers that you feel most excited about.
-This usually involves sending a CV + a cover letter.
+This usually involves sending a Resume + a cover letter.
 
-### CV 
+### Resume 
 
-The CV shows what you have specifically done (professional experience and education) and what you are capable of doing in more general terms (skills).
+The Resume shows what you have specifically done (professional experience and education) and what you are capable of doing in more general terms (skills).
 Additional sections may include hobbies and trainings/courses.
 - professional experience: this shows what you have accomplished so far. For each position include the name of the position and your most notable accomplishments.
 I like to use **research staff associate** as a name for post-doc positions.
@@ -42,34 +42,40 @@ You may find guides of transferrable skills on the internet to use as guide. The
 
 Use the buzzwords (in my case: computer vision, machine learning, deep learning, Python, etc...).
 
-I like to start the CV with a general statement about my professional aims.
+I like to start the Resume with a general statement about my professional aims.
 I also like to include a line or two on hobbies. During interviews, I've got asked about that a couple of times and find that helps relax the atmosphere.
 
 Contrary to an application for a post-doc position, industry recruiters are not interested in seeing an exhaustive list of your publications.
 However, you may include the most important ones, preferably as a quantifiable result derived from your professional experience or skills.
 
 As for the layout, be concise in the content and allow for generous white spaces (lateral margins, section separations, ...).
+Make it simple and clean. Do not overload with graphics/illustrations (if any at all). Regarding using a personal photo, I think that it does not add anything to the Resume and it actually can harm more than benefit.
+The Resume should not have more than 2 pages (ideally 1 for recent PhD graduates).
 
-**here you can see my CV as an example**
+**here you can see my Resume as an example**
 
 ### cover letter
 
-In the cover letter, you try to convince why you are ideal for the job.
+
+In the cover letter, you explain your story about why you are ideal for the job.
 You ellaborate on your most relevant experience and skills for the job.
 You also motivate why you want this job specifically.
-Compared to the CV, it is more tailored to the specific job you
-It partially overlaps with the CV in that you show your accomplishments and skills-set, but it is more tailored to the job you apply.
-While you can use nearly the same CV for nearly all job applications in the same field, you should make a cover letrt
-Personalize the cover letter for the job. Ellaborate in the experience and soft skills that are more relevant for the job. Explain what you like about the job you apply and why you think you would be a good match.
+It is tailored to the job that you apply for.
+While the Resume you can use nearly the same for different jobs in same area, the cover letter should be done for each application.
 
-It is also good to know your values. This helps identify the preferences that you look in a type of work. (**put list**)
+Application is usually through the company site. 
+Some positions receive a lot of applications and it is difficult to get your application due reviewed. 
+Sometimes it is useful if you already know somebody in the company to make sure your application gets reviewed.
+Another possibility is going through professional recruiters. You can find them on linkedin and they work together with the companies to find good candidates.
+Also, if you apply early your chances that the application gets reviewed are higher.
 
-What are your strengths / soft-skills. In industry this is very important you have to bring across these. check cheekyscientist
-
+Do not worry too much about rejections at this stage. Luckily the job landscape is wide and you can apply to other jobs.
 Hopefully, you will land several interviews.
 These are for convincing them that you are the right one but also for you to learn more about the company and whether you will like the kind of job.
 
 ### interview
+
+It is also good to know your values. This helps identify the preferences that you look in a type of work. (**put list**)
 
 Then interview.
 Some advise in any kind of interview either telephone or presential.
