@@ -30,28 +30,36 @@ This usually involves sending a CV + a cover letter.
 
 ### CV 
 
-The main parts in the CV are the professional experience, education and skills.
-Additional sections may include hobbies, trainings/courses, languages and an objective.
-- professional experience: this shows what you have accomplished so far. For each position include the name of the position and your most notable accomplishments for each.
-As for the name of the position, I prefer to use **research staff associate** rather than post-doc.
-As for the accomplishments, I like the Sandwitch rule in the _Resume Guide_ at [Cheeky Scientist](https://cheekyscientist.com/). According to this rule, each task should _sandwich_ a technical skill (the technical role on the task) between a transferable skill (more on that later) and a quantifiable result. 
-I find it is not necessary to write all the tasks using this pattern. It may be too repetitive and also it may result awkward for some tasks, but I recommend using it in some of the tasks.
-- education: really nothing much to add. A list of education titles, Universities and years.
+The CV shows what you have specifically done (professional experience and education) and what you are capable of doing in more general terms (skills).
+Additional sections may include hobbies and trainings/courses.
+- professional experience: this shows what you have accomplished so far. For each position include the name of the position and your most notable accomplishments.
+I like to use **research staff associate** as a name for post-doc positions.
+As for the accomplishments, I like the Sandwitch rule in the _Resume Guide_ at [Cheeky Scientist](https://cheekyscientist.com/). For each entry, you should _sandwich_ a technical skill between a transferable skill (more on that later) and a quantifiable result. 
+I find it is not necessary to write all the entries using this pattern. It may be too repetitive and also it may result awkward for some tasks, but I recommend using it in some of the tasks.
+- education: really nothing much to add. A list of academic titles with corresponding University and years.
 - skills: This is important because shows what you can do. This includes technical skills (tools and techniques that you know) and transferrable skills (more general skills like communication, leadership, ...). If possible include years of experience in each skill. You may also quantify your skills with some result. 
 You may find guides of transferrable skills on the internet to use as guide. There's also one at [Cheeky Scientist](https://cheekyscientist.com/).
 
+Use the buzzwords (in my case: computer vision, machine learning, deep learning, Python, etc...).
+
+I like to start the CV with a general statement about my professional aims.
+I also like to include a line or two on hobbies. During interviews, I've got asked about that a couple of times and find that helps relax the atmosphere.
+
 Contrary to an application for a post-doc position, industry recruiters are not interested in seeing an exhaustive list of your publications.
-You may include the most important ones. It is better if you introduce them as a quantifiable result of some of your professional experience or skills.
+However, you may include the most important ones, preferably as a quantifiable result derived from your professional experience or skills.
 
-I personally like to include a line or two on hobbies. I've got asked about that a couple of times and find that helps relax the interview.
-
-The CV shows what you have specifically done (professional experience) and what you are capable of doing in general terms (skills).
-Make sure to include the buzzwords (in my case: computer vision, machine learning, deep learning, Python, Tensorflow, etc...).
+As for the layout, be concise in the content and allow for generous white spaces (lateral margins, section separations, ...).
 
 **here you can see my CV as an example**
 
-### Cover letter
+### cover letter
 
+In the cover letter, you try to convince why you are ideal for the job.
+You ellaborate on your most relevant experience and skills for the job.
+You also motivate why you want this job specifically.
+Compared to the CV, it is more tailored to the specific job you
+It partially overlaps with the CV in that you show your accomplishments and skills-set, but it is more tailored to the job you apply.
+While you can use nearly the same CV for nearly all job applications in the same field, you should make a cover letrt
 Personalize the cover letter for the job. Ellaborate in the experience and soft skills that are more relevant for the job. Explain what you like about the job you apply and why you think you would be a good match.
 
 It is also good to know your values. This helps identify the preferences that you look in a type of work. (**put list**)
