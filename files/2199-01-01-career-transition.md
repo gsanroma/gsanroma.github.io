@@ -13,7 +13,7 @@ As a bit of background, I have a MSc and PhD in computer science. The following 
 
 Why I have decided to go to industry ?
 One reason is the lack of long-term perspectives in academia. The reality is there are only a few permanent positions compared to the amount of candidadtes. I cannot say this comes as a surprise, but this lack of long-term perspective its been increasingly bothering me with the time. Especially with family, one is not very keen on chasing post-doc positions across different universities and possibly across countries as well.
-Adding to that, it is still not clear to me whether alternative career paths are possible beyond leading a research group or teaching, for example a more technical path. They say there are staff scientist positions in some public institutes, but these are like unicorns to me.
+Adding to that, it is still not clear to me whether alternative career paths are possible beyond leading a research group or teaching, for example a more technical path. They say there are staff scientist positions in some public institutes, but these type of positions are like unicorns to me.
 
 I believe the PhD and post-doc communities would greatly benefit from exposure to a range of career options inside and outside of academia.
 I believe the same research institutes should facilitate this exposure through career advise centers. Otherwise, it is easy to get isolated doing the own work and lose sight of other options.
@@ -23,50 +23,61 @@ The first step is identifying the types of positions that you would like to work
 It is good to be creative at this step and include different roles where you think you would fit. In my case this would for example be: computer vision, machine learning, medical imaging, data science.
 Already by reading the job descriptions, one learns what skills are required for each type of position and can get a sense of whether you like it and would be able to do it.
 I find it is not necessary that one meets all the requirements but one should meet a reasonable minimum, say 70%, in order to have chances.
-It is also interesting to look for the companies ratings in terms of employee satisfaction. Some job-portals like Glassdor include this feature. Other portals like kununu are exclusively dedicated to this.
+I like to look at the employee satisfaction ratings for the companies. Some job-portals like Glassdor include this feature. Other portals like kununu are exclusively dedicated to this.
 
 The next step is to apply for the offers that you feel most excited about.
 This usually involves sending a Resume + a cover letter.
 
 ### Resume 
 
-The Resume shows what you have specifically done (professional experience and education) and what you are capable of doing in more general terms (skills).
-Additional sections may include hobbies and trainings/courses.
-- professional experience: this shows what you have accomplished so far. For each position include the name of the position and your most notable accomplishments.
+The Resume shows what you have achieved (professional experience and education) and what you are capable of doing in more general terms (skills).
+Additional sections may include hobbies, trainings/courses, languages, ...
+- professional experience: for each position include the name of the position and your most notable accomplishments.
 I like to use **research staff associate** as a name for post-doc positions.
 As for the accomplishments, I like the Sandwitch rule in the _Resume Guide_ at [Cheeky Scientist](https://cheekyscientist.com/). For each entry, you should _sandwich_ a technical skill between a transferable skill (more on that later) and a quantifiable result. 
-I find it is not necessary to write all the entries using this pattern. It may be too repetitive and also it may result awkward for some tasks, but I recommend using it in some of the tasks.
-- education: really nothing much to add. A list of academic titles with corresponding University and years.
-- skills: This is important because shows what you can do. This includes technical skills (tools and techniques that you know) and transferrable skills (more general skills like communication, leadership, ...). If possible include years of experience in each skill. You may also quantify your skills with some result. 
-You may find guides of transferrable skills on the internet to use as guide. There's also one at [Cheeky Scientist](https://cheekyscientist.com/).
+I find it is not necessary to write _all_ the entries using this rule but I like because it conveys 3 important pieces of information. 
+- education: really nothing much to add. A list of academic titles, University names and years of study.
+- skills: this shows what you can do and is especially important when changing job fields or sectors (eg, from academia to industry) because it shows how your previous experience may be leveraged in your future role. This typically includes technical skills (tools and techniques that you know) and transferrable skills (more general skills like communication, leadership, ...). If possible include years of experience in each skill. You may also quantify your skills with some result. 
+You can find guides of transferrable skills on the internet to use as guide. There's also one at [Cheeky Scientist](https://cheekyscientist.com/).
 
-Use the buzzwords (in my case: computer vision, machine learning, deep learning, Python, etc...).
+**Others**:
 
 I like to start the Resume with a general statement about my professional aims.
-I also like to include a line or two on hobbies. During interviews, I've got asked about that a couple of times and find that helps relax the atmosphere.
+I also like to include a line or two on hobbies. During interviews, I've got asked about that a couple of times and find that distends the atmosphere.
 
-Contrary to an application for a post-doc position, industry recruiters are not interested in seeing an exhaustive list of your publications.
-However, you may include the most important ones, preferably as a quantifiable result derived from your professional experience or skills.
+Contrary to an application for a post-doc position, industry recruiters are not looking for an exhaustive list of publications.
+However, you may include the most important ones, preferably as a quantifiable result of your professional experience or skills.
 
 As for the layout, be concise in the content and allow for generous white spaces (lateral margins, section separations, ...).
-Make it simple and clean. Do not overload with graphics/illustrations (if any at all). Regarding using a personal photo, I think that it does not add anything to the Resume and it actually can harm more than benefit.
-The Resume should not have more than 2 pages (ideally 1 for recent PhD graduates).
+Making it visually appealing might maximize the chances of getting it actually reviewed.
+Use buzzwords that match with the ones in the job description (in my case these could be: computer vision, machine learning, deep learning, Python, etc...). 
+Regarding a personal photo, I think that it does not add anything to the Resume and it may actually harm more than benefit, so I don't use it.
+The Resume should not be more than 2 pages in length (ideally 1 for recent PhD graduates).
 
-**here you can see my Resume as an example**
+[Here](files/sanroma_resume.pdf) is my Resume as an example.
 
 ### cover letter
 
-
-In the cover letter, you explain your story about why you are ideal for the job.
+In the cover letter, you explain the story about why you are the ideal candidate for the job.
 You ellaborate on your most relevant experience and skills for the job.
-You also motivate why you want this job specifically.
-It is tailored to the job that you apply for.
-While the Resume you can use nearly the same for different jobs in same area, the cover letter should be done for each application.
+You also motivate why you want this job at this company specifically.
+The cover letter is tailored for a specific job application (contrary to the Resume, which you may leave practically unchanged for different applications within same field).
 
-Application is usually through the company site. 
-Some positions receive a lot of applications and it is difficult to get your application due reviewed. 
-Sometimes it is useful if you already know somebody in the company to make sure your application gets reviewed.
-Another possibility is going through professional recruiters. You can find them on linkedin and they work together with the companies to find good candidates.
+As for the style and formatting, I personally like concise cover letters (less than 1 page) organized in 3 or 4 different paragraphs.
+Proofread to make sure there are no typos.
+
+### submitting your application
+
+Submission goes usually through the company site. 
+Some positions receive a lot of applications and may be that your application is not reviewed properly. 
+That is why it is important that your package looks applealing at first sight (ie neat, concise, with Buzzwords and without typos).
+If you know somebody in the company (eg, through linkedin) it is good that you tell them about your application. It stands more chances of getting reviewed. But this is definitely not a must.
+An alternative to directly submitting your application is to go through professional recruiters. The same recruiter may be responsible for several positions in diffrent companies. 
+The good thing about recruiters is that they have direct contact with the company, so that they can get feedback from the status of your application.
+Also, they know the details about the position and help you prepare your application because they are also interested in that you get hired.
+Linkedin profiles include an option to signal to recruiters that you are open to offers. For that, you need an updated Linkedin profile.
+I found this is a quite effective way to get approached. It is also not publicly signaled, so that only recruiters know that you are looking for a job.
+
 Also, if you apply early your chances that the application gets reviewed are higher.
 
 Do not worry too much about rejections at this stage. Luckily the job landscape is wide and you can apply to other jobs.
