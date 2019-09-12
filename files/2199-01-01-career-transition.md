@@ -68,32 +68,49 @@ Proofread to make sure there are no typos.
 
 ### submitting your application
 
-Submission goes usually through the company site. 
-Some positions receive a lot of applications and may be that your application is not reviewed properly. 
-That is why it is important that your package looks applealing at first sight (ie neat, concise, with Buzzwords and without typos).
-If you know somebody in the company (eg, through linkedin) it is good that you tell them about your application. It stands more chances of getting reviewed. But this is definitely not a must.
+Submission usually goes through the company site. 
+Some positions receive a lot of applications and therefore it is important that your package looks applealing at first sight (ie buzzwords, neat, concise and without typos).
+If you know somebody in the company (eg, through linkedin) it may help to tell them that you applied so that it gets more chances of being reviewed.
 An alternative to directly submitting your application is to go through professional recruiters. The same recruiter may be responsible for several positions in diffrent companies. 
-The good thing about recruiters is that they have direct contact with the company, so that they can get feedback from the status of your application.
+The good thing about recruiters is that they have direct contact with the company, so that your application get reviewed and they get feedback from the status of your application.
 Also, they know the details about the position and help you prepare your application because they are also interested in that you get hired.
-Linkedin profiles include an option to signal to recruiters that you are open to offers. For that, you need an updated Linkedin profile.
-I found this is a quite effective way to get approached. It is also not publicly signaled, so that only recruiters know that you are looking for a job.
+Linkedin provides an option to signal your profile as open to being approached by recruiters (you need an up-to-date linkedin profile for that).
+I found this is a quite effective way of getting approached. This signaling is only visible to recruiters so that the process of looking for a job can be kept private.
 
-Also, if you apply early your chances that the application gets reviewed are higher.
-
-Do not worry too much about rejections at this stage. Luckily the job landscape is wide and you can apply to other jobs.
-Hopefully, you will land several interviews.
-These are for convincing them that you are the right one but also for you to learn more about the company and whether you will like the kind of job.
+Do not worry too much about rejections at this stage. Luckily the job landscape is broad and there are plenty of offers you can apply for.
 
 ### interview
 
-It is also good to know your values. This helps identify the preferences that you look in a type of work. (**put list**)
+If they found your application interesting they will invite you to an interview.
+Typically, they would offer first a telephonic interview and if everything goes well an in-person interview after.
 
-Then interview.
-Some advise in any kind of interview either telephone or presential.
+Telephonic interviews are typically less time-consuming than on-site ones.
+They take less time and do not involving moving to the site.
+On-site interviews may require that you prepare a small technical presentation.
+Otherwise, I find the questions asked in telephonic and on-site interviews are quite comparable.
 
-1. Prepare well why you want to change. This will get asked for sure. Be honest. Put it in a way that highlights the benefit that they will get in getting you. Use your strengths and values that highlights how the applied for job suits for you.
+I find there are 2 types of questions: technical and general ones (for a lack of a better name).
+Technical questions want to know details of the technical competences.
+Be prepared to talk about your past experience and technical skills.
+Be honest. If there's something that you don't know, say it. It is OK to not know everything. Also show willingness to learn about it. It is normal to not know everything and you show a positive attitude.
+
+General questions want to know about your motivations and transferrable skills.
+I find these questions may actually be tricky.
+Luckily there are some that get asked frequently and you can prepare.
+In that regard, these are my top take-homes:
+
+motivations
+1. Prepare well the question _why you want to change_. They will sure ask you this question. My recommendation: Be honest. Put it in a way that highlights the benefit that they will get in getting you. Use your strengths and values that highlights how the applied for job suits for you.
 2. Another question you have to expect is why this specific company. Prepare explanation why you are interested in the company and how line of work and values align with you.
+
+To answer these questions it is good to know your values, interests, strengths. Motivate your choice (**put list**).
+Helps prepare questions that you may ask.
+
+values / interests
 3. Prepare some questions that help you know what you will be doing.
+
+
+transfer skills  
 4. Important to prepare for HR questions. These are questions about how reacted in different situations or about personality. Examples of questions I've been asked:
 - examples when I convinced others of something
 - when I did something wrong and what did I learn
@@ -107,6 +124,8 @@ It is recommendable to answer something, otherwise gives the impression that you
 When answering it is recommendable to put them in a light that it reflects actually something good. For example what makes you angry: when somebody looks down on somebody else for asking a "silly" question (this shows empathy and that you promote asking questions). Things that do not like about my interpersonal skills: I am too impatient.
 
 Have more or less clear strenghts and values to apply matching jobs. For example if not interested in leadership skills do not apply to leadership roles because you will get asked a lot of leadership questions for which you may not have good answers.
+
+
 
 ## wrap-up
 
