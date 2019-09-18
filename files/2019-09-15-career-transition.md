@@ -22,22 +22,22 @@ The goal of this post is to give advice for those who decide to switch from acad
 
 ### key points
 
-Before I start, if I had to summarize the main key advices for a job application, they would be the following:
+Before I start, if I had to summarize the main key advices for a job application, they would be:
 
-- be flexible to different types of jobs. Your skills do not need to match 100% to the advertised position
-- write concise Resume and cover letter with ample margins and without typos
-- along with every technical skill try to convey a transferrable skill and a quantifiable result. Transferrable skills shows what you can leverage from your past experience in your new job and quantifiable results show the impact of your work. It helps break the stereotype that academic work is one-faceted and limited to producing papers
+- be flexible during the job search. Your skills do not need to match 100% to the advertised position
+- write concise a Resume and cover letter with ample margins and without typos
+- along with every technical skill try to convey a transferrable skill and a quantifiable result. Transferrable skills shows what you bring from your past experience into your new job and quantifiable results show the impact of your past work
 - know your values and interests so that they can guide you all along the process from the job search to the interview
 - professional recruiters are helpful
 - be honest about your motivations and put them always in a light that reflects the benefit for the company
-- do not worry too much about rejections. Luckily the job landscape is broad and success depends partly on your _application skills_
+- do not worry too much about rejections. Luckily the job landscape is broad and success depends partly on your application skills
 
 Let's get started.
 
 ![](/images/blog/2019-09-15-career-transition/architecture-building-construction-256381.jpg)
 
 The first step is identifying the types of positions that you would like to work in and look at job offers in apps like glassdoor and linkedin.
-It is good to be creative at this step and include different roles where you think you would fit. In my case this would for example be: computer vision, machine learning, medical imaging, data science.
+It is good to be creative at this step and include different roles where you think you would fit.
 Already by reading the job descriptions, one learns what skills are required for each type of position and can get a sense of whether you like it and would be able to do it.
 I find it is not necessary that one meets all the requirements but one should meet a reasonable minimum, say 70%, in order to have chances.
 I like to look at the employee satisfaction ratings for the companies. Some job-portals like Glassdor include this feature. Other portals like kununu are exclusively dedicated to this.
@@ -58,14 +58,14 @@ I find it is not necessary to write _all_ the entries using this rule but I like
 You can find guides of transferrable skills on the internet to use as guide.
 
 I like to start the Resume with a general statement about my professional aims.
-I also like to include a line or two on hobbies. During interviews, I've got asked about my hobbies a couple of times and find that it distends the atmosphere.
+I also like to include a line or two on hobbies. During interviews, I've got asked about my hobbies a couple of times and find that it relaxes the conversation.
 
-Contrary to an application for a post-doc position, industry recruiters are not looking for an exhaustive list of publications. They are interested on your skills and the results of your work (hence, the sandwich rule). 
+Contrary to an application for a post-doc position, for most industry positions recruiters are not looking for an exhaustive list of publications. They may be more interested on your skills and the results of your work (hence, the sandwich rule). 
 You may highlight some of your publications as a quantifiable result of your work, but try to find other results than papers (eg, tools, methods, processes, ...).
 
 As for the layout, be concise in the content and allow for generous white spaces (lateral margins, section separations, ...).
-Making it visually appealing may maximize the chances of getting it actually reviewed.
-Use buzzwords that match with the ones in the job description (in my case these could be: computer vision, machine learning, deep learning, Python, etc...). 
+Making it visually appealing may maximize the chances of getting it reviewed.
+Use buzzwords that match with the ones in the job description. 
 Regarding a personal photo, I think that it does not add anything to the Resume and it may actually harm more than benefit, so I don't use it.
 The Resume should not be more than 2 pages in length (ideally 1 for recent PhD graduates).
 
@@ -86,6 +86,7 @@ Proofread to make sure there are no typos.
 Submission usually goes through the company site. 
 Some positions receive a lot of applications and therefore it is important that your package looks applealing at first sight (ie buzzwords, neat, concise and without typos).
 If you know somebody in the company (eg, through linkedin) it may help to tell them that you applied so that it gets more chances of being reviewed.
+
 An alternative to directly submitting your application is to go through professional recruiters. 
 Linkedin provides an option to signal your profile as open to being approached by recruiters (it is only visible to recruiters).
 The same recruiter may be responsible for several positions in diffrent companies. 
@@ -97,7 +98,7 @@ Do not worry too much about rejections at this stage. Luckily the job landscape 
 ### interview
 
 If they found your application interesting they will invite you to an interview.
-Typically, they would offer first a telephonic interview and later, if everything goes well, an in-person interview.
+Typically, they would offer first a telephonic interview and later an in-person interview.
 
 Telephonic interviews are typically less time-consuming than on-site ones.
 They may be shorter and do not involving moving to the site.
@@ -106,7 +107,7 @@ Otherwise, I find the questions asked in telephonic and on-site interviews are q
 
 I find there are 2 types of questions: technical and general ones (for lack of a better term).
 
-Technical questions want to know about your past experience and skills. Be prepared to talk about that in detail.
+Technical questions want to know about your past experience and skills. Be prepared to talk about it in detail.
 Be honest. If there's something that you don't know, say it. It is OK to not know everything. In such cases, it is better to show a positive attitude and willingness to learn about it.
 When talking about your experience and your past projects, try to highlight transferrable skills and quantifiable results. Transferrable skills may be eg, if you collaborated with people from different disciplines, or had management / leadership responsabilities. Industry professionals may have the idea (rightly or wrongly) that academic work is individualistic and limited to producing papers. Try to break this stereotype by highlighting the transferrable skills involved in your work (communication, management, collaboration, ...). Also, try to highlight any quantifiable result beyond a paper (eg, a tool that may be used by other people). 
 
@@ -114,10 +115,10 @@ General questions may be about your motivations, transferrable skills and person
 Some may be tricky because they are unpredictable.
 Luckily, a couple of them are quite common:
 
-- For example, you will for sure be asked _why you want to change jobs_. My recommendation is be honest and explain your motivation in a way that it is clear that this motivation is a benefit for the company.
+- For example, _why you want to change jobs_. You will be sure asked that one. My recommendation is be honest and explain your motivation in a way that it is clear that this motivation is a benefit for the company.
 - Another question you have to expect is _why this specific company_. Prepare to explain why you are interested in this specific company and how their line of work and values align with you.
 
-It is actually good to use know your values and interests to motivate these answers. As an example to help you identify your values, I put below different categories of values / interests. You may use the results as guide for navigating the interview:
+It helpful to know your values and interests to motivate these answers. As an example to help you identify your values, I put below different categories of values / interests. You may use the results as guide for navigating the interview:
 
 - **Practicalities**: location, salary, job security, flexible working, involves travel, good work-life balance
 - **Environment**: sociable colleagues, not office-based
@@ -138,7 +139,7 @@ Below I put examples of questions that I have been asked:
 - things that I do not like about my interpersonal skills
 
 It is recommendable to answer something to these questions, otherwise it may give the impression that you do not have enough baggage and have not been confronted with a variety of situations (hence, reinforcing the idea that academics are not well-rounded).
-When answering it is recommendable to put them in a light that actually reflects something good for the company. For example, a classic one: what are the things that you do not like about yourself? An example answer could be: _I am too impatient_ because it shows that you are sort of active.
+When answering it is recommendable to put them in a light that actually reflects something good for the company. For example, a classic: _tell me one thing that you do not like about yourself_ An example answer could be: _I am too impatient_. Then you follow saying how you you cannot wait for getting things done ;)
 
 Lastly, prepare some questions to ask. I find it is a good opportunity to figure out the type of work you'd be doing and whether it aligns with your values and interests.
 
@@ -147,7 +148,7 @@ Lastly, prepare some questions to ask. I find it is a good opportunity to figure
 I hope this is helpful advise to people in the process of transition from academia to industry (or just looking for a job).
 It takes some work to bring all your things together to start the application process but when it is done, new applications take _relatively_ low effort.
 Job search can be emotionally tiring because it exposes you to rejections. Do not worry too much. Success partly depends on how skilled you are at this process, and like many other things, one gets better with practice.
-One last word to emphasize the importance of being exposed to different environments for continued growing and developing.
+My last words are to convey my excitement about my upcoming change and the importance of being exposed to different environments for continued growing.
 
 
 
