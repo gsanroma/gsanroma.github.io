@@ -12,13 +12,27 @@ In this post I want to share my experience and give tips to people in a similar 
 As a bit of background, I have a MSc and PhD in computer science. The following 7 years after my PhD I have spent as post-doc in several labs working in the fields of computer vision, neuroimaging and machine learning.
 
 Why I have decided to go to industry ?
-One reason is the lack of long-term perspectives in academia. The reality is there are only a few permanent positions compared to the amount of candidadtes. I cannot say this comes as a surprise, but this lack of long-term perspective its been increasingly bothering me with the time. Especially with family, one is not very keen on chasing post-doc positions across different universities and possibly across countries as well.
-Adding to that, it is still not clear to me whether alternative career paths are possible beyond leading a research group or teaching, for example a more technical path. They say there are staff scientist positions in some public institutes, but these type of positions are like unicorns to me.
+One reason is the limited career paths. It is still not clear to me whether alternative career paths are possible beyond leading a research group or teaching, for example a more technical path. They say there are staff scientist positions in some public institutes, but these type of positions are like unicorns to me.
+Adding to that is the lack of long-term perspectives in academia. Since I finished the PhD, I've been chasing post-doc positions across different universities and countries. This was OK in the beginning but is increasingly bothering me with the time, especially since my family has been growing. 
 
 I believe the PhD and post-doc communities would greatly benefit from exposure to a range of career options inside and outside of academia.
 I believe the same research institutes should facilitate this exposure through career advise centers. Otherwise, it is easy to get isolated doing your own work and lose sight of other options.
 
 The goal of this post is to give advice for those who decide to switch from academia to industry by explaining what I went through and what I found important.
+
+### key points
+
+Before I start, if I had to summarize the main key advices for a job application, they would be the following:
+
+- be flexible to different types of jobs. Your skills do not need to match 100% to the advertised position
+- write concise Resume and cover letter with ample margins and without typos
+- along with every technical skill try to convey a transferrable skill and a quantifiable result. Transferrable skills shows what you can leverage from your past experience in your new job and quantifiable results show the impact of your work. It helps break the stereotype that academic work is one-faceted and limited to producing papers
+- know your values and interests so that they can guide you all along the process from the job search to the interview
+- professional recruiters are helpful
+- be honest about your motivations and put them always in a light that reflects the benefit for the company
+- do not worry too much about rejections. Luckily the job landscape is broad and success depends partly on your _application skills_
+
+Let's get started.
 
 ![](/images/blog/2019-09-15-career-transition/architecture-building-construction-256381.jpg)
 
@@ -37,20 +51,20 @@ The Resume shows what you have achieved (professional experience and education) 
 Additional sections may include hobbies, trainings/courses, languages, ...
 - professional experience: for each position include the name of the position and your most notable accomplishments.
 I like to use **research staff associate** as a name for post-doc positions.
-As for the accomplishments, I like the Sandwitch rule in the _Resume Guide_ at [Cheeky Scientist](https://cheekyscientist.com/). For each entry, you should _sandwich_ a technical skill between a transferable skill (more on that later) and a quantifiable result. 
+As for the accomplishments, I like the Sandwitch rule in the _Resume Guide_ at [Cheeky Scientist](https://cheekyscientist.com/). For each entry, you _sandwich_ a technical skill between a transferable skill (more on that later) and a quantifiable result. 
 I find it is not necessary to write _all_ the entries using this rule but I like because it conveys 3 important pieces of information. 
 - education: really nothing much to add. A list of academic titles, University names and years of study.
-- skills: this shows what you can do and is especially important when changing job fields or sectors (eg, from academia to industry) because it shows how your previous experience may be leveraged in your future role. This typically includes technical skills (tools and techniques that you know) and transferrable skills (more general skills like communication, leadership, ...). If possible include years of experience in each skill. You may also quantify your skills with some result. 
+- skills: this shows what you can do and is especially important when changing job fields or sectors (eg, from academia to industry) because it shows how your previous experience may be leveraged in your future role. This typically includes technical skills (tools and techniques that you know) and transferrable skills (more general skills like communication, leadership, ...). If possible include years of experience for each skill. You may also quantify your skills with some result. 
 You can find guides of transferrable skills on the internet to use as guide.
 
 I like to start the Resume with a general statement about my professional aims.
 I also like to include a line or two on hobbies. During interviews, I've got asked about my hobbies a couple of times and find that it distends the atmosphere.
 
-Contrary to an application for a post-doc position, industry recruiters are not looking for an exhaustive list of publications. They are interested on your skills and the results of your work (hence the sandwich rule). 
+Contrary to an application for a post-doc position, industry recruiters are not looking for an exhaustive list of publications. They are interested on your skills and the results of your work (hence, the sandwich rule). 
 You may highlight some of your publications as a quantifiable result of your work, but try to find other results than papers (eg, tools, methods, processes, ...).
 
 As for the layout, be concise in the content and allow for generous white spaces (lateral margins, section separations, ...).
-Making it visually appealing might maximize the chances of getting it actually reviewed.
+Making it visually appealing may maximize the chances of getting it actually reviewed.
 Use buzzwords that match with the ones in the job description (in my case these could be: computer vision, machine learning, deep learning, Python, etc...). 
 Regarding a personal photo, I think that it does not add anything to the Resume and it may actually harm more than benefit, so I don't use it.
 The Resume should not be more than 2 pages in length (ideally 1 for recent PhD graduates).
@@ -62,9 +76,9 @@ The Resume should not be more than 2 pages in length (ideally 1 for recent PhD g
 In the cover letter, you explain the story about why you are the ideal candidate for the job.
 You ellaborate on your most relevant experience and skills for the job.
 You also motivate why you want this job at this company in particular.
-The cover letter is tailored for a specific job application (contrary to the Resume, which you may leave practically unchanged for different applications within same field).
+The cover letter is tailored for a specific job application (contrary to the Resume, which you may pretty much re-use accross different applications in same field).
 
-As for the style and formatting, I personally like concise cover letters (less than 1 page) organized in 3 or 4 paragraphs.
+As for the style and formatting, make it concise: less than 1 page organized in 3 or 4 paragraphs.
 Proofread to make sure there are no typos.
 
 ### submitting your application
@@ -72,11 +86,11 @@ Proofread to make sure there are no typos.
 Submission usually goes through the company site. 
 Some positions receive a lot of applications and therefore it is important that your package looks applealing at first sight (ie buzzwords, neat, concise and without typos).
 If you know somebody in the company (eg, through linkedin) it may help to tell them that you applied so that it gets more chances of being reviewed.
-An alternative to directly submitting your application is to go through professional recruiters. The same recruiter may be responsible for several positions in diffrent companies. 
+An alternative to directly submitting your application is to go through professional recruiters. 
+Linkedin provides an option to signal your profile as open to being approached by recruiters (it is only visible to recruiters).
+The same recruiter may be responsible for several positions in diffrent companies. 
 The good thing about recruiters is that they have direct contact with the company, so that they get feedback about your application.
 Also, they know the details about the position and help you prepare your application because they are also interested in that you get hired.
-Linkedin provides an option to signal your profile as open to being approached by recruiters (it is better to have an up-to-date linkedin profile).
-I found this is a quite effective way of getting approached. This signaling about you being open to offers is only visible to recruiters.
 
 Do not worry too much about rejections at this stage. Luckily the job landscape is broad and there are plenty of offers you can apply for.
 
@@ -93,17 +107,17 @@ Otherwise, I find the questions asked in telephonic and on-site interviews are q
 I find there are 2 types of questions: technical and general ones (for lack of a better term).
 
 Technical questions want to know about your past experience and skills. Be prepared to talk about that in detail.
-Be honest. If there's something that you don't know, say it. It is OK to not know everything. In such cases, they will appreciate that you show a positive attitude and willingness to learn about it.
-When talking about your experience and your past projects, try to highlight transferrable skills and quantifiable results. Transferrable skills may be eg, if you collaborated with people from different disciplines, or you had management / leadership responsabilities. Industry professionals may have the idea (rightly or wrongly) that academic work is very individualistic and limited to the production of papers. Try to highlight the transferrable skills involved in your work (communication, management, collaboration, ...). Also, try to highlight any quantifiable result beyond a paper (eg, a tool that may be used by other people). 
+Be honest. If there's something that you don't know, say it. It is OK to not know everything. In such cases, it is better to show a positive attitude and willingness to learn about it.
+When talking about your experience and your past projects, try to highlight transferrable skills and quantifiable results. Transferrable skills may be eg, if you collaborated with people from different disciplines, or had management / leadership responsabilities. Industry professionals may have the idea (rightly or wrongly) that academic work is individualistic and limited to producing papers. Try to break this stereotype by highlighting the transferrable skills involved in your work (communication, management, collaboration, ...). Also, try to highlight any quantifiable result beyond a paper (eg, a tool that may be used by other people). 
 
 General questions may be about your motivations, transferrable skills and personal qualities.
 Some may be tricky because they are unpredictable.
-Luckily, some others get asked most of the times.
+Luckily, a couple of them are quite common:
 
-- For example, you will for sure be asked _why you want to change jobs_. My recommendation is be honest but also answer in a way that highlights the benefit they will get in hiring you. For example, you can say that you want a higher salary, but ellaborate in how your skills and values align well with the job.
+- For example, you will for sure be asked _why you want to change jobs_. My recommendation is be honest and explain your motivation in a way that it is clear that this motivation is a benefit for the company.
 - Another question you have to expect is _why this specific company_. Prepare to explain why you are interested in this specific company and how their line of work and values align with you.
 
-It is actually good to use know your values and interests to motivate these answers. As an example to help you identify your values, I put below different categories of values / interests. Try to identify which are the most important to you. You may use the result of this kind of excercice not only as guide to answer motivation questions but actually to help you identify what jobs are most suited to you:
+It is actually good to use know your values and interests to motivate these answers. As an example to help you identify your values, I put below different categories of values / interests. You may use the results as guide for navigating the interview:
 
 - **Practicalities**: location, salary, job security, flexible working, involves travel, good work-life balance
 - **Environment**: sociable colleagues, not office-based
@@ -112,7 +126,7 @@ It is actually good to use know your values and interests to motivate these answ
 - **Impact**: can see the impact of my work, working to improve society
 - **Career**: career progression opportunities, leadership, recognition, further qualifications required
 
-Have more or less clear your strenghts and values to apply for matching jobs. For example if you are not strong in leadership skills do not apply to leadership roles because you will get asked a lot of leadership questions which you may not know how to answer.
+A list of strengths and values may also help you during the job search. For example if you are not strong in leadership skills do not apply to leadership roles.
 
 Further questions about your personal qualities and transferrable skills may be quite unpredictable.
 Below I put examples of questions that I have been asked:
@@ -123,18 +137,17 @@ Below I put examples of questions that I have been asked:
 - what things make me angry
 - things that I do not like about my interpersonal skills
 
-It is recommendable to find something to answer to these questions, otherwise it may give the impression that you do not have enough baggage and have not been confronted with a variety of situations.
-When answering it is recommendable to put them in a light that reflects actually something good. For example, things that I do not like about my interpersonal skills: I am too impatient (it shows a sort of active personality).
+It is recommendable to answer something to these questions, otherwise it may give the impression that you do not have enough baggage and have not been confronted with a variety of situations (hence, reinforcing the idea that academics are not well-rounded).
+When answering it is recommendable to put them in a light that actually reflects something good for the company. For example, a classic one: what are the things that you do not like about yourself? An example answer could be: _I am too impatient_ because it shows that you are sort of active.
 
-Lastly, prepare some questions to ask. I find it useful to use them to figure out the type of work you'd be doing and whether it aligns with your preferences.
+Lastly, prepare some questions to ask. I find it is a good opportunity to figure out the type of work you'd be doing and whether it aligns with your values and interests.
 
+### wrap-up
 
-## wrap-up
+I hope this is helpful advise to people in the process of transition from academia to industry (or just looking for a job).
+It takes some work to bring all your things together to start the application process but when it is done, new applications take _relatively_ low effort.
+Job search can be emotionally tiring because it exposes you to rejections. Do not worry too much. Success partly depends on how skilled you are at this process, and like many other things, one gets better with practice.
+One last word to emphasize the importance of being exposed to different environments for continued growing and developing.
 
-I hope this is helpful advise to people in the process of transition from academia to industry (or just looking for an industry job).
-For people that is in academia, I think that this is good times to go to industry if you like applied thing. A lot of things happening right now in computer science at a high pace.
-It is some work to put all your things together and can be emotionally tiring because it exposes you to rejections.
-But afterall this is a process of deciding what you want to do and helps you grow.
-No matter where you are, it is important to continue growing and developing.
 
 
