@@ -13,7 +13,7 @@ As a bit of background, I have a MSc and PhD in computer science. The following 
 
 Why I have decided to go to industry ?
 One reason is the limited career paths. It is still not clear to me whether alternative career paths are possible beyond leading a research group or teaching, for example a more technical path. They say there are staff scientist positions in some public institutes, but these type of positions are like unicorns to me.
-Adding to that is the lack of long-term perspectives in academia. Since I finished the PhD, I've been chasing post-doc positions across different universities and countries. This was OK in the beginning but is increasingly bothering me with the time, especially since my family has been growing. 
+Adding to that is the lack of long-term perspectives in academia. Since I finished the PhD, I've been chasing post-doc positions across different universities and countries. This was OK in the beginning but is increasingly bothering me with the time, especially since my family has grown. 
 
 I believe the PhD and post-doc communities would greatly benefit from exposure to a range of career options inside and outside of academia.
 I believe the same research institutes should facilitate this exposure through career advise centers. Otherwise, it is easy to get isolated doing your own work and lose sight of other options.
