@@ -22,10 +22,10 @@ The goal of this post is to give advice for those who decide to switch from acad
 
 ### key points
 
-Before I start, if I had to summarize the main key advices for a job application, they would be:
+Before I start, let me summarize the main key advices for a job application:
 
-- be flexible during the job search. Your skills do not need to match 100% to the advertised position
-- write concise a Resume and cover letter with ample margins and without typos
+- be open during the job search. Your skills do not need to match 100% to the advertised position
+- write concise CV and cover letter with ample margins and without typos
 - along with every technical skill try to convey a transferrable skill and a quantifiable result. Transferrable skills shows what you bring from your past experience into your new job and quantifiable results show the impact of your past work
 - know your values and interests so that they can guide you all along the process from the job search to the interview
 - professional recruiters are helpful
@@ -43,11 +43,11 @@ I find it is not necessary that one meets all the requirements but one should me
 I like to look at the employee satisfaction ratings for the companies. Some job-portals like Glassdor include this feature. Other portals like kununu are exclusively dedicated to this.
 
 The next step is to apply for the offers that you feel most excited about.
-This usually involves sending a Resume + a cover letter.
+This usually involves sending a CV + a cover letter.
 
-### Resume 
+### CV 
 
-The Resume shows what you have achieved (professional experience and education) and what you are capable of doing in more general terms (skills).
+The CV shows what you have achieved (professional experience and education) and what you are capable of doing in more general terms (skills).
 Additional sections may include hobbies, trainings/courses, languages, ...
 - professional experience: for each position include the name of the position and your most notable accomplishments.
 I like to use **research staff associate** as a name for post-doc positions.
@@ -57,7 +57,7 @@ I find it is not necessary to write _all_ the entries using this rule but I like
 - skills: this shows what you can do and is especially important when changing job fields or sectors (eg, from academia to industry) because it shows how your previous experience may be leveraged in your future role. This typically includes technical skills (tools and techniques that you know) and transferrable skills (more general skills like communication, leadership, ...). If possible include years of experience for each skill. You may also quantify your skills with some result. 
 You can find guides of transferrable skills on the internet to use as guide.
 
-I like to start the Resume with a general statement about my professional aims.
+I like to start the CV with a general statement about my professional aims.
 I also like to include a line or two on hobbies. During interviews, I've got asked about my hobbies a couple of times and find that it relaxes the conversation.
 
 Contrary to an application for a post-doc position, for most industry positions recruiters are not looking for an exhaustive list of publications. They may be more interested on your skills and the results of your work (hence, the sandwich rule). 
@@ -66,7 +66,7 @@ You may highlight some of your publications as a quantifiable result of your wor
 As for the layout, be concise in the content and allow for generous white spaces (lateral margins, section separations, ...).
 Making it visually appealing may maximize the chances of getting it reviewed.
 Use buzzwords that match with the ones in the job description. 
-Regarding a personal photo, I think that it does not add anything to the Resume and it may actually harm more than benefit, so I don't use it.
+Regarding a personal photo, I think that it does not add anything to the CV and it may actually harm more than benefit, so I don't use it.
 The Resume should not be more than 2 pages in length (ideally 1 for recent PhD graduates).
 
 [Here](/files/sanroma_resume.pdf) is my Resume as an example.
@@ -146,7 +146,7 @@ Lastly, prepare some questions to ask. I find it is a good opportunity to figure
 ### wrap-up
 
 I hope this is helpful advise to people in the process of transition from academia to industry (or just looking for a job).
-It takes some work to bring all your things together to start the application process but when it is done, new applications take _relatively_ low effort.
+It may take some work put all together in your CV but when it is done, new applications take _relatively_ low effort.
 Job search can be emotionally tiring because it exposes you to rejections. Do not worry too much. Success partly depends on how skilled you are at this process, and like many other things, one gets better with practice.
 My last words are to convey my excitement about my upcoming change and the importance of being exposed to different environments for continued growing.
 
