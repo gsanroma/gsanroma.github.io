@@ -19,7 +19,7 @@ I believe PhD and post-doc communities would greatly benefit from exposure to a 
 
 The goal of this post is to give advice for those who decide to switch from academia to industry by explaining what I went through and what I found important.
 
-### key points
+## key points
 
 Before I start, let me summarize the main key points for a job application, IMO:
 
@@ -35,7 +35,7 @@ Let's get started.
 
 ![](/images/blog/2019-09-19-career-transition/architecture-building-construction-256381.jpg)
 
-### job search
+# job search
 
 The first step is identifying the types of positions that you like and look at job offers in apps like [Glassdoor](www.glassdoor.com) and [Linkedin](www.linkedin.com).
 It is good to be creative at this step and include different roles where you think you would fit.
@@ -48,7 +48,7 @@ Conferences are great places to meet people that can tell you about interesting 
 The next step is to apply for the offers that you feel most excited about.
 This usually involves sending a CV + a cover letter.
 
-### CV 
+# CV 
 
 The CV shows what you have achieved (professional experience and education) and what you are capable of doing in more general terms (skills).
 Additional sections may include hobbies, trainings/courses, languages, ...
@@ -74,7 +74,7 @@ The CV should not be more than 2 pages in length (ideally 1 for recent PhD gradu
 
 [Here](/files/sanroma_resume.pdf) is my CV as an example.
 
-### cover letter
+# cover letter
 
 In the cover letter, you explain the story about why you are the ideal candidate for the job.
 You ellaborate on your most relevant experience and skills for the job.
@@ -84,7 +84,7 @@ The cover letter is tailored for a specific job application (contrary to the CV,
 As for the style and formatting, make it concise: less than 1 page organized in 3 or 4 paragraphs.
 Proofread to make sure there are no typos.
 
-### submitting your application
+# submitting your application
 
 Submission usually goes through the company site. 
 Some positions receive a lot of applications and therefore it is important that your package looks applealing at first sight (ie buzzwords, neat, concise and without typos).
@@ -98,7 +98,7 @@ Also, they know the details about the position and help you prepare your applica
 
 Do not worry too much about rejections at this stage. Luckily the job landscape is broad and there are plenty of offers you can apply for.
 
-### interview
+# interview
 
 If they found your application interesting they will invite you for an interview.
 Typically, they would offer first a telephonic and later an in-person interview.
@@ -146,7 +146,7 @@ When answering it is recommendable to put them in a light that actually reflects
 
 Lastly, prepare some questions to ask. I find it is a good opportunity to figure out the type of work you'd be doing and whether it aligns with your values and interests.
 
-### wrap-up
+# wrap-up
 
 I hope this is helpful advise for people in the process of transition from academia to industry (or just looking for a job).
 It may take some time to put everything together in your CV but when it is done, new applications are _relatively_ straightforward.
