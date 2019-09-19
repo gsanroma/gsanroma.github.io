@@ -80,7 +80,7 @@ In the cover letter, you explain the story about why you are the ideal candidate
 You ellaborate on your most relevant experience and skills for the job.
 You also motivate why you want this job at this company in particular.
 You may also explain how you learned about the job (especially if it was through a contact from within the company).
-The cover letter is tailored for a specific job application (contrary to the CV, which you may leave almost unchanged accross different applications in same field).
+The cover letter is tailored for a specific job application (contrary to the CV, which you may leave almost unchanged accross different applications in the same field).
 
 As for the style and formatting, make it concise: less than 1 page organized in 3 or 4 paragraphs.
 Proofread to make sure there are no typos.
@@ -117,10 +117,10 @@ When talking about your experience and your past projects, try to highlight tran
 
 General questions may be about your motivations, transferrable skills and personal qualities.
 Some may be tricky and quite unpredictable.
-Luckily, a couple of them are quite common:
+Luckily, a couple of them are quite common. For example:
 
-- For example, _why you want to change jobs_. My recommendation is be honest and explain your motivation in a way that it is clear how your motivation benefits the company.
-- Another question you have to expect is _why this specific company_. Prepare to explain why you are interested in this specific company and how their line of work and values align with yours.
+- _why you want to change jobs_. My recommendation is be honest and explain your motivation in a way that it is clear how your motivation benefits the company.
+- Another question you may expect: _why this specific company_. Prepare to explain why you are interested in this specific company and how their line of work and values align with yours.
 
 It helpful to know your values and interests to motivate these answers. As an example to help you identify your values, I put below different categories of values / interests. You may use the results as guide for navigating the interview:
 
@@ -142,7 +142,7 @@ Below I put examples of questions that I have been asked:
 - what things make me angry
 - things that I do not like about my interpersonal skills
 
-It is recommendable to answer something to these questions, otherwise it may give the impression that you do not have enough baggage and have not been confronted with a variety of situations (hence, reinforcing the idea that academics are not well-rounded).
+It is recommendable to answer something to these questions, otherwise it may give the impression that you do not have enough baggage and have not been confronted with a variety of situations (hence, reinforcing that the academic stereotype applies to you).
 When answering it is recommendable to put them in a light that actually reflects something good for the company. For example, a classic: _tell me one thing that you do not like about yourself_. An example answer could be: _I am too impatient_. Then you follow by saying how you cannot wait for getting things done and blah blah blah...
 
 Lastly, prepare some questions to ask. I find it is a good opportunity to figure out the type of work you'd be doing and whether it aligns with your values and interests.
