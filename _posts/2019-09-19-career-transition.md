@@ -21,7 +21,7 @@ The goal of this post is to give advice for those who decide to switch from acad
 
 ### key points
 
-Before I start, let me summarize the main key points for a job application:
+Before I start, let me summarize the main key points for a job application, IMO:
 
 - be open during the job search. Your skills do not need to match 100% to the advertised position
 - write concise CV and cover letter with ample margins and without typos
@@ -35,11 +35,15 @@ Let's get started.
 
 ![](/images/blog/2019-09-19-career-transition/architecture-building-construction-256381.jpg)
 
+### job search
+
 The first step is identifying the types of positions that you like and look at job offers in apps like [Glassdoor](www.glassdoor.com) and [Linkedin](www.linkedin.com).
 It is good to be creative at this step and include different roles where you think you would fit.
 Already by reading the job descriptions one learns what skills are required for each type of position and can get a sense of whether you like it and would be able to do it.
 I find it is not necessary that one meets all the requirements but one should meet a reasonable minimum, say 70%, in order to have chances.
 I like to look at the employee satisfaction ratings for the companies. Some job-portals like Glassdor include this feature. Other portals like [kununu](www.kununu.com) are exclusively dedicated to this.
+
+Conferences are great places to meet people that can tell you about interesting jobs. In such cases, you should mention in your cover letter how you learned about the job from your contact at a conference.
 
 The next step is to apply for the offers that you feel most excited about.
 This usually involves sending a CV + a cover letter.
@@ -85,7 +89,6 @@ Proofread to make sure there are no typos.
 Submission usually goes through the company site. 
 Some positions receive a lot of applications and therefore it is important that your package looks applealing at first sight (ie buzzwords, neat, concise and without typos).
 If you know somebody in the company (eg, through linkedin or via a conference) it may help to tell them that you applied so that it gets more chances of being reviewed.
-By the way, conferences and other gatherings are great places to meet people who may know about interesting jobs. You may mention in your cover letter how you learned about the job opportunity from your contact at that company.
 
 An alternative to directly submitting your application is to go through professional recruiters. 
 Linkedin provides an option to signal your profile as open to being approached by recruiters (it is only visible to recruiters).
@@ -145,8 +148,8 @@ Lastly, prepare some questions to ask. I find it is a good opportunity to figure
 
 ### wrap-up
 
-I hope this is helpful advise to people in the process of transition from academia to industry (or just looking for a job).
-It may take some work put all together in your CV but when it is done, new applications take _relatively_ low effort.
+I hope this is helpful advise for people in the process of transition from academia to industry (or just looking for a job).
+It may take some time to put everything together in your CV but when it is done, new applications are _relatively_ straightforward.
 Job search can be emotionally tiring because it exposes you to rejections. Do not worry too much. Success partly depends on how skilled you are at this process, and like many other things, it gets better with practice.
 
 
