@@ -21,13 +21,13 @@ The goal of this post is to give advice for those who decide to switch from acad
 
 ### key points
 
-Before I start, let me summarize the main key points for a job application, IMO:
+Before I start, let me summarize what are, in my opinion, the main key points for a job application:
 
 - be open during the job search. Your skills do not need to match 100% to the advertised position
 - write concise CV and cover letter with ample margins and without typos
 - along with every technical skill try to convey a transferrable skill and a quantifiable result. Transferrable skills show what you bring from your past experience into your new job and quantifiable results show the impact of your past work
 - know your values and interests so that they can guide you all along the process from the job search to the interview
-- professional recruiters are helpful
+- professional recruiters are helpful. Knowing somebody at the company is also helpful
 - be honest about your motivations and put them always in a light that reflects the benefit for the company
 - do not worry too much about rejections. Luckily the job landscape is broad and success partially depends on your application skills (which can be learnt)
 
@@ -89,7 +89,7 @@ Proofread to make sure there are no typos.
 
 Submission usually goes through the company site. 
 Some positions receive a lot of applications and therefore it is important that your package looks applealing at first sight (ie buzzwords, neat, concise and without typos).
-If you know somebody in the company (eg, through linkedin or via a conference) it may help to tell them that you applied so that it gets more chances of being reviewed.
+If you know somebody in the company (eg, a former colleague, or via a conference) it may help to tell them that you applied so that it gets more chances of being reviewed.
 
 An alternative to directly submitting your application is to go through professional recruiters. 
 Linkedin provides an option to signal your profile as open to being approached by recruiters (it is only visible to recruiters).
