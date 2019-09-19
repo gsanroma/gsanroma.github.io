@@ -84,7 +84,8 @@ Proofread to make sure there are no typos.
 
 Submission usually goes through the company site. 
 Some positions receive a lot of applications and therefore it is important that your package looks applealing at first sight (ie buzzwords, neat, concise and without typos).
-If you know somebody in the company (eg, through linkedin) it may help to tell them that you applied so that it gets more chances of being reviewed.
+If you know somebody in the company (eg, through linkedin or via a conference) it may help to tell them that you applied so that it gets more chances of being reviewed.
+By the way, conferences and other gatherings are great places to meet people who may know about interesting jobs. You may mention in your cover letter how you learned about the job opportunity from your contact at that company.
 
 An alternative to directly submitting your application is to go through professional recruiters. 
 Linkedin provides an option to signal your profile as open to being approached by recruiters (it is only visible to recruiters).
@@ -97,7 +98,7 @@ Do not worry too much about rejections at this stage. Luckily the job landscape 
 ### interview
 
 If they found your application interesting they will invite you for an interview.
-Typically, they would offer first a telephonic interview and later an in-person one.
+Typically, they would offer first a telephonic and later an in-person interview.
 
 Telephonic interviews are typically less time-consuming than on-site ones.
 They may be shorter and do not involving moving to the site.
@@ -107,8 +108,8 @@ Otherwise, I find the questions asked in telephonic and on-site interviews are q
 I find there are 2 types of questions: technical and general ones (for lack of a better term).
 
 Technical questions want to know about your past experience and skills. Be prepared to talk about it in detail.
-Be honest. If there's something that you don't know, say it. It is OK to not know everything. In such cases, it is better to show a positive attitude and say that you are willing to learn about it.
-When talking about your experience and your past projects, try to highlight transferrable skills and quantifiable results. Transferrable skills may be eg, if you collaborated with people from different disciplines, or had management / leadership responsabilities. Industry professionals may have the idea (rightly or wrongly) that academic work is individualistic and limited to producing papers. Try to break this stereotype by highlighting the transferrable skills involved in your work (communication, management, collaboration, ...). Also, try to highlight any quantifiable result beyond a paper (eg, a tool that may be used by other people). 
+Be honest. If there's something that you don't know, say it. It is OK to not know everything. In such cases, it is better to show a positive attitude and say that you are willing to learn it.
+When talking about your experience and your past projects, try to highlight transferrable skills and quantifiable results. Transferrable skills may be e.g., if you collaborated with people from different disciplines, or had management / leadership responsabilities. Industry professionals may have the idea (rightly or wrongly) that academic work is individualistic and limited to producing papers. Break this stereotype by highlighting the transferrable skills involved in your work (communication, management, collaboration, ...). Also, highlight any quantifiable result beyond a paper (eg, a tool that may be used by other people). 
 
 General questions may be about your motivations, transferrable skills and personal qualities.
 Some may be tricky and quite unpredictable.
@@ -138,7 +139,7 @@ Below I put examples of questions that I have been asked:
 - things that I do not like about my interpersonal skills
 
 It is recommendable to answer something to these questions, otherwise it may give the impression that you do not have enough baggage and have not been confronted with a variety of situations (hence, reinforcing the idea that academics are not well-rounded).
-When answering it is recommendable to put them in a light that actually reflects something good for the company. For example, a classic: _tell me one thing that you do not like about yourself_ An example answer could be: _I am too impatient_. Then you follow by saying how you you cannot wait for getting things done and blah blah blah...
+When answering it is recommendable to put them in a light that actually reflects something good for the company. For example, a classic: _tell me one thing that you do not like about yourself_. An example answer could be: _I am too impatient_. Then you follow by saying how you cannot wait for getting things done and blah blah blah...
 
 Lastly, prepare some questions to ask. I find it is a good opportunity to figure out the type of work you'd be doing and whether it aligns with your values and interests.
 
@@ -146,8 +147,7 @@ Lastly, prepare some questions to ask. I find it is a good opportunity to figure
 
 I hope this is helpful advise to people in the process of transition from academia to industry (or just looking for a job).
 It may take some work put all together in your CV but when it is done, new applications take _relatively_ low effort.
-Job search can be emotionally tiring because it exposes you to rejections. Do not worry too much. Success partly depends on how skilled you are at this process, and like many other things, one gets better with practice.
-I just want to finish with a few words on the importance of being exposed to different environments for the personal and professional development and my excitement about my next step.
+Job search can be emotionally tiring because it exposes you to rejections. Do not worry too much. Success partly depends on how skilled you are at this process, and like many other things, it gets better with practice.
 
 
 
