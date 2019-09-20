@@ -1,6 +1,6 @@
 ---
 title: 'transitioning from academia to industry'
-date: 2019-09-19
+date: 2019-09-20
 permalink: /posts/2019/09/career-transition/
 tags:
   - career
@@ -33,7 +33,7 @@ Before I start, let me summarize what are, in my opinion, the main key points fo
 
 Let's get started.
 
-![](/images/blog/2019-09-19-career-transition/architecture-building-construction-256381.jpg)
+![](/images/blog/2019-09-20-career-transition/architecture-building-construction-256381.jpg)
 
 ## job search
 
