@@ -12,8 +12,8 @@ In this post I want to share my experience and give tips to people in a similar 
 As a bit of background, I have a MSc and PhD in computer science. The following 7 years after my PhD I have spent as post-doc in several labs working in the fields of computer vision, neuroimaging and machine learning.
 
 Why I have decided to go to industry ?
-One reason is the lack of long-term perspectives in academia. Since I finished the PhD, I've been chasing post-doc positions across different universities and countries. This was OK in the beginning but is increasingly bothering me with the time, especially since my family has grown. 
-Adding to that is the seemingly limited career paths. It is still not clear to me whether a technical path is possible in academia (alternative to either group leader or lecturer). They say there are staff scientist positions in some public institutes, but these type of positions seem like unicorns to me.
+One reason is the lack of stability and long-term perspectives in academia. Since I finished the PhD, I've been chasing post-doc positions across different universities and countries. This was OK in the beginning but is increasingly bothering me with the time, especially since my family has grown. 
+Adding to that is the seemingly limited career paths. It seems to me that a technical path is not possible in academia (alternative to either group leader or lecturer).
 
 I believe PhD and post-doc communities would greatly benefit from exposure to a range of career options inside and outside of academia. This advise could be facilitated by the same research institutes through career advise centers. Otherwise, it is easy to get isolated doing your own work and lose sight of other options.
 
@@ -25,7 +25,7 @@ Before I start, let me summarize what are, in my opinion, the main key points fo
 
 - be open during the job search. Your skills do not need to match 100% to the advertised position
 - write concise CV and cover letter with ample margins and without typos
-- along with every technical skill try to convey a transferrable skill and a quantifiable result. Transferrable skills show what you bring from your past experience into your new job and quantifiable results show the impact of your past work
+- along with every technical skill, convey a transferrable skill and a quantifiable result. Transferrable skills show what you bring from your past experience into your new job and quantifiable results show the impact of your past work
 - know your values and interests so that they can guide you all along the process from the job search to the interview
 - professional recruiters are helpful. Knowing somebody at the company is also helpful
 - be honest about your motivations and put them always in a light that reflects the benefit for the company
@@ -150,7 +150,7 @@ Lastly, prepare some questions to ask. I find it is a good opportunity to figure
 ## wrap-up
 
 I hope this is helpful advise for people in the process of transition from academia to industry (or just looking for a job).
-It may take some time to put everything together in your CV but when it is done, new applications are _relatively_ straightforward.
+It may take some time to put everything together in your CV but when it is done, new applications are (relatively) straightforward.
 Job search can be emotionally tiring because it exposes you to rejections. Do not worry too much. Success partly depends on how skilled you are at this process, and like many other things, it gets better with practice.
 
 
