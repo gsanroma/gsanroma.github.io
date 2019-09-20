@@ -72,8 +72,6 @@ Use buzzwords that match with the ones in the job description.
 Regarding a personal photo, I think that it does not add anything to the CV and it may actually harm more than benefit, so I don't use it.
 The CV should not be more than 2 pages in length (ideally 1 for recent PhD graduates).
 
-[Here](/images/blog/2019-09-20-career-transition/sanroma_resume.pdf) is my CV as an example.
-
 ## cover letter
 
 In the cover letter, you explain the story about why you are the ideal candidate for the job.
